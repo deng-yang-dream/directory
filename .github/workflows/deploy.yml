@@ -1,0 +1,93 @@
+name: Deploy to GitHub Pages
+
+on:
+  # 在推送到 main 分支时触发
+  push:
+    branches: [ main ]
+
+  # 允许手动触发
+  workflow_dispatch:
+
+  # 定时构建（每周日凌晨）
+  schedule:
+    - cron: '0 2 * * 0'
+
+# 设置 GITHUB_TOKEN 的权限
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 允许一个并发部署，跳过正在运行的队列
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # 构建工作
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 获取所有历史用于构建信息
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Build static site
+        run: |
+          echo "开始构建静态网站..."
+          python scripts/build/build_site.py
+          echo "构建完成"
+
+      - name: Validate build output
+        run: |
+          echo "验证构建结果..."
+          if [ ! -d "docs" ]; then
+            echo "错误: docs 目录不存在"
+            exit 1
+          fi
+
+          # 检查必要的文件
+          required_files=("index.html" "tools.html")
+          for file in "${required_files[@]}"; do
+            if [ ! -f "docs/$file" ]; then
+              echo "警告: docs/$file 不存在"
+            fi
+          done
+
+          # 统计文件数量
+          echo "构建文件统计:"
+          find docs -type f -name "*.html" | wc -l
+          find docs -type f -name "*.css" | wc -l
+          find docs -type f -name "*.js" | wc -l
+          echo "验证通过"
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./docs
+
+  # 部署工作
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
