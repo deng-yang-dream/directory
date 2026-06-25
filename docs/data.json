@@ -1,0 +1,4379 @@
+{
+  "updated": "2026-06-26T01:53:27.620522",
+  "total": 221,
+  "categories": {
+    "01-方案生成与概念": {
+      "name": "01-方案生成与概念",
+      "count": 28
+    },
+    "02-效果图与渲染": {
+      "name": "02-效果图与渲染",
+      "count": 50
+    },
+    "03-绘图与手绘": {
+      "name": "03-绘图与手绘",
+      "count": 1
+    },
+    "04-AI助手与知识": {
+      "name": "04-AI助手与知识",
+      "count": 27
+    },
+    "05-汇报与数据": {
+      "name": "05-汇报与数据",
+      "count": 43
+    },
+    "06-绿色与性能": {
+      "name": "06-绿色与性能",
+      "count": 9
+    },
+    "07-建模与BIM": {
+      "name": "07-建模与BIM",
+      "count": 36
+    },
+    "08-规范审查": {
+      "name": "08-规范审查",
+      "count": 18
+    },
+    "09-学术与实验室": {
+      "name": "09-学术与实验室",
+      "count": 8
+    },
+    "10-其他": {
+      "name": "10-其他",
+      "count": 1
+    }
+  },
+  "tools": [
+    {
+      "id": "ChatGPT",
+      "name": "ChatGPT",
+      "category": "01-方案生成与概念",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-12 | 编辑：待填",
+      "filename": "ChatGPT.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "Finch_3D",
+      "name": "Finch 3D",
+      "category": "01-方案生成与概念",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-12 | 编辑：待填",
+      "filename": "Finch_3D.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "Gemini_Imagen",
+      "name": "Gemini Imagen",
+      "category": "01-方案生成与概念",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-12 | 编辑：待填",
+      "filename": "Gemini_Imagen.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "GPT-image_2",
+      "name": "GPT-image 2",
+      "category": "01-方案生成与概念",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-12 | 编辑：待填",
+      "filename": "GPT-image_2.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "Maket_ai",
+      "name": "Maket.ai",
+      "category": "01-方案生成与概念",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-12 | 编辑：待填",
+      "filename": "Maket_ai.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "场景综述_方案生成与概念",
+      "name": "场景综述：方案生成与概念",
+      "category": "01-方案生成与概念",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-12",
+      "filename": "场景综述_方案生成与概念.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "arkdesignai",
+      "name": "ArkDesign.ai",
+      "category": "01-方案生成与概念",
+      "subcategory": "方案生成",
+      "url": "null",
+      "developer": "ArkDesign.ai",
+      "scenes": [
+        "方案生成",
+        "概念设计"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "arkdesignai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "brevian",
+      "name": "BREVIAN",
+      "category": "01-方案生成与概念",
+      "subcategory": "方案生成",
+      "url": "null",
+      "developer": "BREVIAN",
+      "scenes": [
+        "方案生成",
+        "概念设计"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "brevian.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "chatbase",
+      "name": "Chatbase",
+      "category": "01-方案生成与概念",
+      "subcategory": "方案生成",
+      "url": "null",
+      "developer": "Chatbase",
+      "scenes": [
+        "方案生成",
+        "概念设计"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "免费",
+      "rating": "3",
+      "description": "",
+      "filename": "chatbase.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "fabric",
+      "name": "Fabric",
+      "category": "01-方案生成与概念",
+      "subcategory": "方案生成",
+      "url": "null",
+      "developer": "Fabric",
+      "scenes": [
+        "方案生成",
+        "概念设计"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "免费",
+      "rating": "3",
+      "description": "",
+      "filename": "fabric.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "finch-3d",
+      "name": "Finch 3D",
+      "category": "01-方案生成与概念",
+      "subcategory": "方案生成",
+      "url": "null",
+      "developer": "Finch 3D",
+      "scenes": [
+        "方案生成",
+        "概念设计"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "finch-3d.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "fyli",
+      "name": "fyli",
+      "category": "01-方案生成与概念",
+      "subcategory": "方案生成",
+      "url": "null",
+      "developer": "Atom",
+      "scenes": [
+        "方案生成",
+        "概念设计"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "免费",
+      "rating": "3",
+      "description": "",
+      "filename": "fyli.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "godmode",
+      "name": "GodMode",
+      "category": "01-方案生成与概念",
+      "subcategory": "方案生成",
+      "url": "null",
+      "developer": "GodMode",
+      "scenes": [
+        "方案生成",
+        "概念设计"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "godmode.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "gptsidekick",
+      "name": "GPTSidekick",
+      "category": "01-方案生成与概念",
+      "subcategory": "方案生成",
+      "url": "null",
+      "developer": "GPTSidekick",
+      "scenes": [
+        "方案生成",
+        "概念设计"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "gptsidekick.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "jeda",
+      "name": "Jeda",
+      "category": "01-方案生成与概念",
+      "subcategory": "方案生成",
+      "url": "null",
+      "developer": "Jeda.ai",
+      "scenes": [
+        "方案生成",
+        "概念设计"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "免费",
+      "rating": "3",
+      "description": "",
+      "filename": "jeda.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "keepi",
+      "name": "Keepi",
+      "category": "01-方案生成与概念",
+      "subcategory": "方案生成",
+      "url": "null",
+      "developer": "Dancing Apps",
+      "scenes": [
+        "方案生成",
+        "概念设计"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "keepi.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "knowledge-architecture",
+      "name": "Knowledge Architecture",
+      "category": "01-方案生成与概念",
+      "subcategory": "方案生成",
+      "url": "null",
+      "developer": "Knowledge Architecture",
+      "scenes": [
+        "方案生成",
+        "概念设计"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "knowledge-architecture.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "laiout",
+      "name": "Laiout",
+      "category": "01-方案生成与概念",
+      "subcategory": "方案生成",
+      "url": "null",
+      "developer": "laiout",
+      "scenes": [
+        "方案生成",
+        "概念设计"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "laiout.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "maketai",
+      "name": "Maket.ai",
+      "category": "01-方案生成与概念",
+      "subcategory": "方案生成",
+      "url": "null",
+      "developer": "Maket.ai",
+      "scenes": [
+        "方案生成",
+        "概念设计"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "maketai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "n8n",
+      "name": "n8n",
+      "category": "01-方案生成与概念",
+      "subcategory": "方案生成",
+      "url": "null",
+      "developer": "n8n",
+      "scenes": [
+        "方案生成",
+        "概念设计"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "n8n.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "popai",
+      "name": "PopAi",
+      "category": "01-方案生成与概念",
+      "subcategory": "方案生成",
+      "url": "null",
+      "developer": "PopAi",
+      "scenes": [
+        "方案生成",
+        "概念设计"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "免费",
+      "rating": "3",
+      "description": "",
+      "filename": "popai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "questflow",
+      "name": "Questflow",
+      "category": "01-方案生成与概念",
+      "subcategory": "方案生成",
+      "url": "null",
+      "developer": "Questflow",
+      "scenes": [
+        "方案生成",
+        "概念设计"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "questflow.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "scriptit",
+      "name": "Script.It",
+      "category": "01-方案生成与概念",
+      "subcategory": "方案生成",
+      "url": "null",
+      "developer": "Script.It",
+      "scenes": [
+        "方案生成",
+        "概念设计"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "scriptit.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "shortlistiq",
+      "name": "ShortlistIQ",
+      "category": "01-方案生成与概念",
+      "subcategory": "方案生成",
+      "url": "null",
+      "developer": "ShortlistIQ",
+      "scenes": [
+        "方案生成",
+        "概念设计"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "shortlistiq.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "slidesai",
+      "name": "SlidesAI",
+      "category": "01-方案生成与概念",
+      "subcategory": "方案生成",
+      "url": "null",
+      "developer": "SlidesAI",
+      "scenes": [
+        "方案生成",
+        "概念设计"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "免费",
+      "rating": "3",
+      "description": "",
+      "filename": "slidesai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "三维家ai",
+      "name": "三维家AI",
+      "category": "01-方案生成与概念",
+      "subcategory": "方案生成",
+      "url": "null",
+      "developer": "三维家AI",
+      "scenes": [
+        "方案生成",
+        "概念设计"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "三维家ai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "居然设计家ai",
+      "name": "居然设计家AI",
+      "category": "01-方案生成与概念",
+      "subcategory": "方案生成",
+      "url": "null",
+      "developer": "居然设计家AI",
+      "scenes": [
+        "方案生成",
+        "概念设计"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "居然设计家ai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "酷家乐ai",
+      "name": "酷家乐AI",
+      "category": "01-方案生成与概念",
+      "subcategory": "方案生成",
+      "url": "null",
+      "developer": "酷家乐AI",
+      "scenes": [
+        "方案生成",
+        "概念设计"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "酷家乐ai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "3d-warehouse-for-sketchup",
+      "name": "3D Warehouse (for SketchUp)",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "3D Warehouse (for SketchUp)",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "3d-warehouse-for-sketchup.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "3dguru",
+      "name": "3DGURU",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "3DGURU",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "3dguru.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "adobe-firefly",
+      "name": "Adobe Firefly",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "Adobe Firefly",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "免费",
+      "rating": "3",
+      "description": "",
+      "filename": "adobe-firefly.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "architectgpt",
+      "name": "ArchitectGPT",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "ArchitectGPT",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "architectgpt.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "archivinci",
+      "name": "ArchiVinci",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "ArchiVinci",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "免费",
+      "rating": "3",
+      "description": "",
+      "filename": "archivinci.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "arkoai",
+      "name": "ArkoAI",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "ArkoAI",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "arkoai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "clipdrop",
+      "name": "Clipdrop",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "InitML",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "clipdrop.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "creaition",
+      "name": "cre[ai]tion",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "cre[ai]tion",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "creaition.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "d5-render-ai-suite",
+      "name": "D5 Render AI Suite",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "D5 Render AI Suite",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "d5-render-ai-suite.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "d5-render",
+      "name": "D5 Render",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "D5 Render",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "d5-render.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "dall-e-3",
+      "name": "DALL-E 3",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "DALL-E 3",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "dall-e-3.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "deepfloyd-if-by-stability-ai",
+      "name": "DeepFloyd IF (by Stability AI)",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "DeepFloyd IF (by Stability AI)",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "deepfloyd-if-by-stability-ai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "dreamlookai-by-nyxai",
+      "name": "dreamlook.ai (by NyxAI)",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "dreamlook.ai (by NyxAI)",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "dreamlookai-by-nyxai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "dreamstagingai",
+      "name": "DreamStaging.AI",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "DreamStaging.AI",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "dreamstagingai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "earthcam",
+      "name": "EarthCam",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "EarthCam",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "earthcam.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "enscape-ai降噪",
+      "name": "Enscape AI降噪",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "Enscape AI降噪",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "enscape-ai降噪.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "evai建筑大师",
+      "name": "EVAI建筑大师",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "EVAI建筑大师",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "evai建筑大师.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "fenestra",
+      "name": "Fenestra",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "Fenestra",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "免费",
+      "rating": "3",
+      "description": "",
+      "filename": "fenestra.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "gemini-imagen",
+      "name": "Gemini Imagen",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "Gemini Imagen",
+      "scenes": [
+        "AI渲染",
+        "方案生成"
+      ],
+      "design_stages": [
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "gemini-imagen.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "generaso",
+      "name": "Genera.so",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "Genera.so",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "免费",
+      "rating": "3",
+      "description": "",
+      "filename": "generaso.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "gpt-image-2",
+      "name": "GPT-image 2",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "GPT-image 2",
+      "scenes": [
+        "AI渲染",
+        "方案生成"
+      ],
+      "design_stages": [
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "gpt-image-2.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "gyre",
+      "name": "Gyre",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "Gyre",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "gyre.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "interiorai",
+      "name": "InteriorAI",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "InteriorAI",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "interiorai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "leonardoai",
+      "name": "Leonardo.Ai",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "Leonardo.Ai",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "leonardoai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "lumion-2026-ai-assist",
+      "name": "Lumion 2026 AI Assist",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "Lumion 2026 AI Assist",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "lumion-2026-ai-assist.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "magnific",
+      "name": "Magnific",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "Freepik / Magnific",
+      "scenes": [
+        "AI渲染",
+        "图像处理",
+        "汇报输出"
+      ],
+      "design_stages": [
+        "概念设计",
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "订阅制 + credits",
+      "rating": "3",
+      "description": "",
+      "filename": "magnific.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "midjourney-v7",
+      "name": "Midjourney V7",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "Midjourney V7",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "midjourney-v7.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "musavir",
+      "name": "Musavir",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "Musavir",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "musavir.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "myarchitectai",
+      "name": "MyArchitectAI",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "MyArchitectAI",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "myarchitectai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "promeai",
+      "name": "PromeAI",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "PromeAI",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "promeai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "reviz",
+      "name": "Reviz",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "Reviz",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "reviz.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "sketchup-diffusion",
+      "name": "SketchUp Diffusion",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "SketchUp Diffusion",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "sketchup-diffusion.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "spaces",
+      "name": "Spaces",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "DEMO SLOT GRATIS",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "spaces.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "stable-diffusion-reimagine-clipdrop",
+      "name": "Stable Diffusion Reimagine (Clipdrop)",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "InitML",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "stable-diffusion-reimagine-clipdrop.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "stable-diffusion-xl",
+      "name": "Stable Diffusion XL",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "Stable Diffusion XL",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "stable-diffusion-xl.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "veras-evolvelab",
+      "name": "Veras (EvolveLAB)",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "Veras (EvolveLAB)",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "veras-evolvelab.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "云图ai",
+      "name": "云图AI",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "云图AI",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "云图ai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "建筑学长ai",
+      "name": "建筑学长AI",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "https://www.jianzhuxuezhang.com",
+      "developer": "次元空间（重庆）网络科技有限公司",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "混合定价",
+      "rating": "4",
+      "description": "",
+      "filename": "建筑学长ai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "模袋云ai",
+      "name": "模袋云AI",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "模袋云AI",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "模袋云ai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "豆绘ai",
+      "name": "豆绘AI",
+      "category": "02-效果图与渲染",
+      "subcategory": "AI渲染",
+      "url": "null",
+      "developer": "豆绘AI",
+      "scenes": [
+        "AI渲染",
+        "图像处理"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "豆绘ai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "ArchLink",
+      "name": "ArchLink",
+      "category": "02-效果图与渲染",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-12 | 编辑：待填",
+      "filename": "ArchLink.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "EVAI建筑大师",
+      "name": "EVAI 建筑大师",
+      "category": "02-效果图与渲染",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-12 | 编辑：待填",
+      "filename": "EVAI建筑大师.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "Magnific",
+      "name": "Magnific",
+      "category": "02-效果图与渲染",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-15 | 编辑：Claude",
+      "filename": "Magnific.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "场景综述_效果图与渲染",
+      "name": "场景综述：效果图与渲染",
+      "category": "02-效果图与渲染",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-12",
+      "filename": "场景综述_效果图与渲染.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "建筑学长AI",
+      "name": "建筑学长 AI",
+      "category": "02-效果图与渲染",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-15 | 编辑：待填",
+      "filename": "建筑学长AI.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "成本利润估算_产品方视角",
+      "name": "效果图 AI 产品方成本利润估算",
+      "category": "02-效果图与渲染",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-12",
+      "filename": "成本利润估算_产品方视角.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "效果图场景竞争地图",
+      "name": "效果图场景竞争地图",
+      "category": "02-效果图与渲染",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-17",
+      "filename": "效果图场景竞争地图.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "效果图工具套壳技术解析",
+      "name": "效果图工具套壳技术解析",
+      "category": "02-效果图与渲染",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-17",
+      "filename": "效果图工具套壳技术解析.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "模型对比_SD_vs_NanoBanana_vs_GPT-image",
+      "name": "三大图像生成入口架构对比：SD vs Nano Banana vs GPT-image",
+      "category": "02-效果图与渲染",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-15",
+      "filename": "模型对比_SD_vs_NanoBanana_vs_GPT-image.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "采购ROI_建筑团队视角",
+      "name": "建筑团队 AI 工具采购 ROI 对比",
+      "category": "02-效果图与渲染",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-15",
+      "filename": "采购ROI_建筑团队视角.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "场景综述_绘图与手绘",
+      "name": "场景综述：绘图与手绘",
+      "category": "03-绘图与手绘",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-12 v3.0",
+      "filename": "场景综述_绘图与手绘.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "AI4Scholar",
+      "name": "AI4Scholar",
+      "category": "04-AI助手与知识",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-13 | 编辑：待填",
+      "filename": "AI4Scholar.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "aad建筑ai文化网",
+      "name": "AAD建筑AI文化网",
+      "category": "04-AI助手与知识",
+      "subcategory": "AI助手",
+      "url": "null",
+      "developer": "AAD建筑AI文化网",
+      "scenes": [
+        "AI助手",
+        "知识问答"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计",
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "aad建筑ai文化网.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "adrianhajdinroomify",
+      "name": "adrianhajdin/roomify",
+      "category": "04-AI助手与知识",
+      "subcategory": "AI助手",
+      "url": "null",
+      "developer": "adrianhajdin/roomify",
+      "scenes": [
+        "AI助手",
+        "知识问答"
+      ],
+      "design_stages": [
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "adrianhajdinroomify.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "ai-assist",
+      "name": "AI Assist",
+      "category": "04-AI助手与知识",
+      "subcategory": "AI助手",
+      "url": "null",
+      "developer": "AI Assist",
+      "scenes": [
+        "AI助手"
+      ],
+      "design_stages": [
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "ai-assist.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "ai-tools-directory",
+      "name": "AI Tools Directory",
+      "category": "04-AI助手与知识",
+      "subcategory": "AI助手",
+      "url": "null",
+      "developer": "AI Tools Directory",
+      "scenes": [
+        "AI助手",
+        "知识问答"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计",
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "ai-tools-directory.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "aihub建筑专区",
+      "name": "AIHub建筑专区",
+      "category": "04-AI助手与知识",
+      "subcategory": "AI助手",
+      "url": "null",
+      "developer": "AIHub建筑专区",
+      "scenes": [
+        "AI助手",
+        "知识问答"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计",
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "aihub建筑专区.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "architecturetools-ai",
+      "name": "ArchitectureTools AI",
+      "category": "04-AI助手与知识",
+      "subcategory": "AI助手",
+      "url": "null",
+      "developer": "ArchitectureTools AI",
+      "scenes": [
+        "AI助手",
+        "知识问答"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计",
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "architecturetools-ai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "archomation",
+      "name": "Archomation",
+      "category": "04-AI助手与知识",
+      "subcategory": "AI助手",
+      "url": "null",
+      "developer": "Archomation",
+      "scenes": [
+        "AI助手",
+        "知识问答"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计",
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "archomation.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "archpulse",
+      "name": "ArchPulse",
+      "category": "04-AI助手与知识",
+      "subcategory": "AI助手",
+      "url": "null",
+      "developer": "ArchPulse",
+      "scenes": [
+        "AI助手",
+        "知识问答"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计",
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "archpulse.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "conversantai",
+      "name": "conversant.ai",
+      "category": "04-AI助手与知识",
+      "subcategory": "AI助手",
+      "url": "null",
+      "developer": "Conversant AI",
+      "scenes": [
+        "AI助手"
+      ],
+      "design_stages": [
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "conversantai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "designing-buildings-wiki-ai",
+      "name": "Designing Buildings Wiki AI",
+      "category": "04-AI助手与知识",
+      "subcategory": "AI助手",
+      "url": "null",
+      "developer": "Designing Buildings Wiki AI",
+      "scenes": [
+        "AI助手",
+        "知识问答"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计",
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "designing-buildings-wiki-ai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "dseditoraistudiofloorplan",
+      "name": "dseditor/AIStudioFloorPlan",
+      "category": "04-AI助手与知识",
+      "subcategory": "AI助手",
+      "url": "null",
+      "developer": "dseditor/AIStudioFloorPlan",
+      "scenes": [
+        "AI助手",
+        "知识问答"
+      ],
+      "design_stages": [
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "dseditoraistudiofloorplan.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "futurebuiltai",
+      "name": "FutureBuiltAI",
+      "category": "04-AI助手与知识",
+      "subcategory": "AI助手",
+      "url": "null",
+      "developer": "FutureBuiltAI",
+      "scenes": [
+        "AI助手",
+        "知识问答"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计",
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "futurebuiltai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "holly",
+      "name": "Holly",
+      "category": "04-AI助手与知识",
+      "subcategory": "AI助手",
+      "url": "null",
+      "developer": "HiringAgents.ai",
+      "scenes": [
+        "AI助手"
+      ],
+      "design_stages": [
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "holly.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "illustrarch",
+      "name": "IllustrArch",
+      "category": "04-AI助手与知识",
+      "subcategory": "AI助手",
+      "url": "null",
+      "developer": "IllustrArch",
+      "scenes": [
+        "AI助手",
+        "知识问答"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计",
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "illustrarch.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "makeaiprompt",
+      "name": "MakeAiPrompt",
+      "category": "04-AI助手与知识",
+      "subcategory": "AI助手",
+      "url": "null",
+      "developer": "MakeAiPrompt",
+      "scenes": [
+        "AI助手",
+        "知识问答"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计",
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "makeaiprompt.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "pawelkinczykaecvision",
+      "name": "PawelKinczyk/AECVision",
+      "category": "04-AI助手与知识",
+      "subcategory": "AI助手",
+      "url": "null",
+      "developer": "PawelKinczyk/AECVision",
+      "scenes": [
+        "AI助手",
+        "知识问答"
+      ],
+      "design_stages": [
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "pawelkinczykaecvision.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "practica",
+      "name": "Practica",
+      "category": "04-AI助手与知识",
+      "subcategory": "AI助手",
+      "url": "null",
+      "developer": "Practica",
+      "scenes": [
+        "AI助手"
+      ],
+      "design_stages": [
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "practica.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "toolify-architect",
+      "name": "Toolify Architect",
+      "category": "04-AI助手与知识",
+      "subcategory": "AI助手",
+      "url": "null",
+      "developer": "Toolify Architect",
+      "scenes": [
+        "AI助手",
+        "知识问答"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计",
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "toolify-architect.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "vinteo-ai",
+      "name": "Vinteo AI",
+      "category": "04-AI助手与知识",
+      "subcategory": "AI助手",
+      "url": "null",
+      "developer": "Vinteo AI",
+      "scenes": [
+        "AI助手"
+      ],
+      "design_stages": [
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "vinteo-ai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "建筑曲奇ai导航",
+      "name": "建筑曲奇AI导航",
+      "category": "04-AI助手与知识",
+      "subcategory": "AI助手",
+      "url": "null",
+      "developer": "建筑曲奇AI导航",
+      "scenes": [
+        "AI助手",
+        "知识问答"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计",
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "建筑曲奇ai导航.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "Dimensions",
+      "name": "Dimensions.com",
+      "category": "04-AI助手与知识",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-12 | 编辑：待填",
+      "filename": "Dimensions.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "Stylib",
+      "name": "Stylib",
+      "category": "04-AI助手与知识",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-12 | 编辑：待填",
+      "filename": "Stylib.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "场景综述_AI助手与知识",
+      "name": "场景综述：AI助手与知识",
+      "category": "04-AI助手与知识",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-12",
+      "filename": "场景综述_AI助手与知识.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "孟祥和-建筑科技与AI_文章索引",
+      "name": "孟祥和-建筑科技与AI 公众号文章索引",
+      "category": "04-AI助手与知识",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 抓取日期：2026-06-13",
+      "filename": "孟祥和-建筑科技与AI_文章索引.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "建筑曲奇AI导航",
+      "name": "建筑曲奇 AI 导航",
+      "category": "04-AI助手与知识",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 类型：单产品评测 | 文档日期：2026-06-12 | 编辑：待填",
+      "filename": "建筑曲奇AI导航.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "ai4scholar",
+      "name": "AI4Scholar",
+      "category": "04-AI助手与知识",
+      "subcategory": "知识问答",
+      "url": "null",
+      "developer": "AI4Scholar",
+      "scenes": [
+        "知识问答",
+        "数据分析",
+        "文档管理"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "ai4scholar.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "BrainyAI",
+      "name": "BrainyAI",
+      "category": "05-汇报与数据",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-12 | 编辑：待填",
+      "filename": "BrainyAI.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "iRhino_3D",
+      "name": "iRhino 3D",
+      "category": "05-汇报与数据",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-12 | 编辑：待填",
+      "filename": "iRhino_3D.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "豆包",
+      "name": "豆包",
+      "category": "05-汇报与数据",
+      "subcategory": "PPT演示",
+      "url": "null",
+      "developer": "豆包",
+      "scenes": [
+        "PPT演示",
+        "汇报输出"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "豆包.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "可灵Kling",
+      "name": "可灵 Kling",
+      "category": "05-汇报与数据",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-12 | 编辑：待填",
+      "filename": "可灵Kling.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "场景综述_汇报与数据",
+      "name": "场景综述：汇报与数据",
+      "category": "05-汇报与数据",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-12 v3.0",
+      "filename": "场景综述_汇报与数据.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "ai-spacefactory",
+      "name": "AI SpaceFactory",
+      "category": "05-汇报与数据",
+      "subcategory": "城市数据",
+      "url": "null",
+      "developer": "AI SpaceFactory",
+      "scenes": [
+        "城市数据",
+        "性能分析"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "ai-spacefactory.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "aino-world",
+      "name": "Aino.world",
+      "category": "05-汇报与数据",
+      "subcategory": "城市数据",
+      "url": "https://www.aino.world",
+      "developer": "Aino World Inc.",
+      "scenes": [],
+      "design_stages": [],
+      "pricing": "月付",
+      "rating": "4",
+      "description": "",
+      "filename": "aino-world.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "arcgis-esri",
+      "name": "ArcGIS (Esri)",
+      "category": "05-汇报与数据",
+      "subcategory": "城市数据",
+      "url": "https://www.esri.com/en-us/arcgis/products",
+      "developer": "Esri",
+      "scenes": [],
+      "design_stages": [],
+      "pricing": "需询价",
+      "rating": "5",
+      "description": "",
+      "filename": "arcgis-esri.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "archistar",
+      "name": "Archistar",
+      "category": "05-汇报与数据",
+      "subcategory": "城市数据",
+      "url": "null",
+      "developer": "Archistar",
+      "scenes": [
+        "城市数据",
+        "性能分析"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "archistar.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "autodesk-forma",
+      "name": "Autodesk Forma",
+      "category": "05-汇报与数据",
+      "subcategory": "城市数据",
+      "url": "null",
+      "developer": "Autodesk Forma",
+      "scenes": [
+        "城市数据",
+        "性能分析"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "autodesk-forma.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "concertvdc",
+      "name": "ConcertVDC",
+      "category": "05-汇报与数据",
+      "subcategory": "城市数据",
+      "url": "null",
+      "developer": "ConcertVDC",
+      "scenes": [
+        "城市数据",
+        "性能分析"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "concertvdc.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "covetool",
+      "name": "Cove.tool",
+      "category": "05-汇报与数据",
+      "subcategory": "城市数据",
+      "url": "null",
+      "developer": "Cove.tool",
+      "scenes": [
+        "城市数据",
+        "性能分析"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "covetool.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "digital-blue-foam",
+      "name": "Digital Blue Foam",
+      "category": "05-汇报与数据",
+      "subcategory": "城市数据",
+      "url": "null",
+      "developer": "DigitalBlueFoam",
+      "scenes": [
+        "城市数据",
+        "性能分析"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "digital-blue-foam.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "flypix-ai",
+      "name": "FlyPix AI",
+      "category": "05-汇报与数据",
+      "subcategory": "城市数据",
+      "url": "https://flypix.ai",
+      "developer": "FlyPix GmbH",
+      "scenes": [],
+      "design_stages": [],
+      "pricing": "按量付费",
+      "rating": "4",
+      "description": "",
+      "filename": "flypix-ai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "holobuilder",
+      "name": "HoloBuilder",
+      "category": "05-汇报与数据",
+      "subcategory": "城市数据",
+      "url": "null",
+      "developer": "HoloBuilder",
+      "scenes": [
+        "城市数据",
+        "性能分析"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "免费",
+      "rating": "3",
+      "description": "",
+      "filename": "holobuilder.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "ies-ve-ai",
+      "name": "IES VE AI",
+      "category": "05-汇报与数据",
+      "subcategory": "城市数据",
+      "url": "null",
+      "developer": "IES VE AI",
+      "scenes": [
+        "城市数据",
+        "性能分析"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "ies-ve-ai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "imerso",
+      "name": "Imerso",
+      "category": "05-汇报与数据",
+      "subcategory": "城市数据",
+      "url": "null",
+      "developer": "Imerso",
+      "scenes": [
+        "城市数据",
+        "性能分析"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "imerso.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "intelmatix",
+      "name": "Intelmatix",
+      "category": "05-汇报与数据",
+      "subcategory": "城市数据",
+      "url": "null",
+      "developer": "BoronStudio",
+      "scenes": [
+        "城市数据"
+      ],
+      "design_stages": [
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "intelmatix.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "kumu",
+      "name": "Kumu",
+      "category": "05-汇报与数据",
+      "subcategory": "城市数据",
+      "url": "null",
+      "developer": "Kumu",
+      "scenes": [
+        "城市数据",
+        "性能分析"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "kumu.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "layer",
+      "name": "Layer",
+      "category": "05-汇报与数据",
+      "subcategory": "城市数据",
+      "url": "null",
+      "developer": "Layer",
+      "scenes": [
+        "城市数据",
+        "性能分析"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "layer.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "lepeiai",
+      "name": "Lepei.ai",
+      "category": "05-汇报与数据",
+      "subcategory": "城市数据",
+      "url": "null",
+      "developer": "Lepei.ai",
+      "scenes": [
+        "城市数据",
+        "性能分析"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "lepeiai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "monolith-ai",
+      "name": "Monolith AI",
+      "category": "05-汇报与数据",
+      "subcategory": "城市数据",
+      "url": "null",
+      "developer": "Monolith AI",
+      "scenes": [
+        "城市数据",
+        "性能分析"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "monolith-ai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "nearmap",
+      "name": "Nearmap",
+      "category": "05-汇报与数据",
+      "subcategory": "城市数据",
+      "url": "https://www.nearmap.com",
+      "developer": "Nearmap Ltd",
+      "scenes": [],
+      "design_stages": [],
+      "pricing": "需询价",
+      "rating": "4",
+      "description": "",
+      "filename": "nearmap.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "neuron-by-arup",
+      "name": "Neuron (by Arup)",
+      "category": "05-汇报与数据",
+      "subcategory": "城市数据",
+      "url": "null",
+      "developer": "Neuron (by Arup)",
+      "scenes": [
+        "城市数据",
+        "性能分析"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "neuron-by-arup.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "parallelo",
+      "name": "Parallelo",
+      "category": "05-汇报与数据",
+      "subcategory": "城市数据",
+      "url": "null",
+      "developer": "Parallelo",
+      "scenes": [
+        "城市数据",
+        "性能分析"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "parallelo.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "pype-ai-autodesk",
+      "name": "Pype AI (Autodesk)",
+      "category": "05-汇报与数据",
+      "subcategory": "城市数据",
+      "url": "null",
+      "developer": "Pype AI (Autodesk)",
+      "scenes": [
+        "城市数据",
+        "性能分析"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "月付",
+      "rating": "3",
+      "description": "",
+      "filename": "pype-ai-autodesk.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "qgis",
+      "name": "QGIS",
+      "category": "05-汇报与数据",
+      "subcategory": "城市数据",
+      "url": "https://www.qgis.org",
+      "developer": "QGIS.org（国际开源社区）",
+      "scenes": [],
+      "design_stages": [],
+      "pricing": "免费",
+      "rating": "5",
+      "description": "",
+      "filename": "qgis.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "sefaira",
+      "name": "Sefaira",
+      "category": "05-汇报与数据",
+      "subcategory": "城市数据",
+      "url": "null",
+      "developer": "Sefaira",
+      "scenes": [
+        "城市数据",
+        "性能分析"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "sefaira.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "speckle",
+      "name": "Speckle",
+      "category": "05-汇报与数据",
+      "subcategory": "城市数据",
+      "url": "null",
+      "developer": "Speckle",
+      "scenes": [
+        "城市数据",
+        "性能分析"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "speckle.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "t2d2",
+      "name": "T2D2",
+      "category": "05-汇报与数据",
+      "subcategory": "城市数据",
+      "url": "null",
+      "developer": "T2D2",
+      "scenes": [
+        "城市数据",
+        "性能分析"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "t2d2.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "testfit",
+      "name": "TestFit",
+      "category": "05-汇报与数据",
+      "subcategory": "城市数据",
+      "url": "null",
+      "developer": "TestFit",
+      "scenes": [
+        "城市数据",
+        "性能分析"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "testfit.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "topologic",
+      "name": "Topologic",
+      "category": "05-汇报与数据",
+      "subcategory": "城市数据",
+      "url": "null",
+      "developer": "Topologic",
+      "scenes": [
+        "城市数据",
+        "性能分析"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "topologic.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "urban-dashboard",
+      "name": "Urban Dashboard",
+      "category": "05-汇报与数据",
+      "subcategory": "城市数据",
+      "url": "null",
+      "developer": "Urban Dashboard",
+      "scenes": [
+        "城市数据",
+        "性能分析"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "urban-dashboard.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "zenesis",
+      "name": "Zenesis",
+      "category": "05-汇报与数据",
+      "subcategory": "城市数据",
+      "url": "null",
+      "developer": "Zenesis GmbH",
+      "scenes": [
+        "城市数据",
+        "性能分析"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "zenesis.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "广联达绿建ai",
+      "name": "广联达绿建AI",
+      "category": "05-汇报与数据",
+      "subcategory": "城市数据",
+      "url": "null",
+      "developer": "广联达绿建AI",
+      "scenes": [
+        "城市数据",
+        "性能分析"
+      ],
+      "design_stages": [
+        "前期策划",
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "广联达绿建ai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "memtime",
+      "name": "Memtime",
+      "category": "05-汇报与数据",
+      "subcategory": "数据管理",
+      "url": "null",
+      "developer": "Memtime",
+      "scenes": [
+        "数据管理"
+      ],
+      "design_stages": [
+        "方案设计"
+      ],
+      "pricing": "免费",
+      "rating": "3",
+      "description": "",
+      "filename": "memtime.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "brainyai",
+      "name": "BrainyAI",
+      "category": "05-汇报与数据",
+      "subcategory": "汇报输出",
+      "url": "null",
+      "developer": "Brainy",
+      "scenes": [
+        "汇报输出",
+        "PPT演示"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计",
+        "施工图"
+      ],
+      "pricing": "免费",
+      "rating": "3",
+      "description": "",
+      "filename": "brainyai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "irhino-3d",
+      "name": "iRhino 3D",
+      "category": "05-汇报与数据",
+      "subcategory": "汇报输出",
+      "url": "null",
+      "developer": "App Store",
+      "scenes": [
+        "汇报输出",
+        "PPT演示"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计",
+        "施工图"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "irhino-3d.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "kompas",
+      "name": "KOMPAS",
+      "category": "05-汇报与数据",
+      "subcategory": "汇报输出",
+      "url": "null",
+      "developer": "KOMPAS VC",
+      "scenes": [
+        "汇报输出",
+        "PPT演示"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计",
+        "施工图"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "kompas.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "proprtyai",
+      "name": "proprty.ai",
+      "category": "05-汇报与数据",
+      "subcategory": "汇报输出",
+      "url": "null",
+      "developer": "proprty.ai",
+      "scenes": [
+        "汇报输出",
+        "PPT演示"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计",
+        "施工图"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "proprtyai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "sendbird",
+      "name": "Sendbird",
+      "category": "05-汇报与数据",
+      "subcategory": "汇报输出",
+      "url": "null",
+      "developer": "Sendbird",
+      "scenes": [
+        "汇报输出",
+        "PPT演示"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计",
+        "施工图"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "sendbird.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "可灵kling",
+      "name": "可灵Kling",
+      "category": "05-汇报与数据",
+      "subcategory": "汇报输出",
+      "url": "null",
+      "developer": "可灵Kling",
+      "scenes": [
+        "汇报输出",
+        "PPT演示"
+      ],
+      "design_stages": [
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "可灵kling.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "豆包",
+      "name": "豆包",
+      "category": "05-汇报与数据",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-13 | 编辑：待填",
+      "filename": "豆包.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "Archistar",
+      "name": "Archistar",
+      "category": "06-绿色与性能",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-12 | 编辑：待填",
+      "filename": "Archistar.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "Autodesk_Forma",
+      "name": "Autodesk Forma",
+      "category": "06-绿色与性能",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-12 | 编辑：待填",
+      "filename": "Autodesk_Forma.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "Cove_tool",
+      "name": "Cove.tool",
+      "category": "06-绿色与性能",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-12 | 编辑：待填",
+      "filename": "Cove_tool.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "EarthCam",
+      "name": "EarthCam",
+      "category": "06-绿色与性能",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-12 | 编辑：待填",
+      "filename": "EarthCam.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "TestFit",
+      "name": "TestFit",
+      "category": "06-绿色与性能",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-12 | 编辑：待填",
+      "filename": "TestFit.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "场景综述_绿色与性能",
+      "name": "场景综述：绿色与性能",
+      "category": "06-绿色与性能",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-12",
+      "filename": "场景综述_绿色与性能.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "albedya",
+      "name": "Albedya",
+      "category": "06-绿色与性能",
+      "subcategory": "绿色建筑",
+      "url": "https://www.albedya.com",
+      "developer": "Albedya",
+      "scenes": [],
+      "design_stages": [],
+      "pricing": "需询价",
+      "rating": "4",
+      "description": "",
+      "filename": "albedya.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "measurable-energy",
+      "name": "Measurable Energy",
+      "category": "06-绿色与性能",
+      "subcategory": "绿色建筑",
+      "url": "null",
+      "developer": "measurable.energy",
+      "scenes": [
+        "绿色建筑",
+        "性能分析"
+      ],
+      "design_stages": [
+        "方案设计"
+      ],
+      "pricing": "免费",
+      "rating": "3",
+      "description": "",
+      "filename": "measurable-energy.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "revaluio",
+      "name": "revalu.io",
+      "category": "06-绿色与性能",
+      "subcategory": "绿色建筑",
+      "url": "null",
+      "developer": "revalu",
+      "scenes": [
+        "绿色建筑",
+        "数据管理"
+      ],
+      "design_stages": [
+        "方案设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "revaluio.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "3dfyai",
+      "name": "3DFY.ai",
+      "category": "07-建模与BIM",
+      "subcategory": "3D建模",
+      "url": "null",
+      "developer": "3DFY.ai",
+      "scenes": [
+        "3D建模",
+        "BIM建模"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "3dfyai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "adobe-substance-3d",
+      "name": "Adobe Substance 3D",
+      "category": "07-建模与BIM",
+      "subcategory": "3D建模",
+      "url": "null",
+      "developer": "Adobe Substance 3D",
+      "scenes": [
+        "3D建模",
+        "BIM建模"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "adobe-substance-3d.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "aecforward",
+      "name": "AECforward",
+      "category": "07-建模与BIM",
+      "subcategory": "3D建模",
+      "url": "null",
+      "developer": "AECforward",
+      "scenes": [
+        "3D建模",
+        "BIM建模"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "aecforward.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "amc-bridge",
+      "name": "AMC Bridge",
+      "category": "07-建模与BIM",
+      "subcategory": "3D建模",
+      "url": "null",
+      "developer": "AMC Bridge",
+      "scenes": [
+        "3D建模",
+        "BIM建模"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "amc-bridge.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "blackshark-ai",
+      "name": "BlackShark AI",
+      "category": "07-建模与BIM",
+      "subcategory": "3D建模",
+      "url": "null",
+      "developer": "BlackShark AI",
+      "scenes": [
+        "3D建模",
+        "BIM建模"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "blackshark-ai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "dataverse",
+      "name": "DATAVERSE",
+      "category": "07-建模与BIM",
+      "subcategory": "3D建模",
+      "url": "null",
+      "developer": "DATAVERSE",
+      "scenes": [
+        "3D建模",
+        "BIM建模"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "dataverse.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "devpost",
+      "name": "Devpost",
+      "category": "07-建模与BIM",
+      "subcategory": "3D建模",
+      "url": "null",
+      "developer": "Devpost",
+      "scenes": [
+        "3D建模",
+        "BIM建模"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "devpost.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "hypar",
+      "name": "Hypar",
+      "category": "07-建模与BIM",
+      "subcategory": "3D建模",
+      "url": "null",
+      "developer": "Hypar",
+      "scenes": [
+        "3D建模",
+        "BIM建模"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "hypar.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "infinigen",
+      "name": "Infinigen",
+      "category": "07-建模与BIM",
+      "subcategory": "3D建模",
+      "url": "null",
+      "developer": "Infinigen",
+      "scenes": [
+        "3D建模",
+        "BIM建模"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "infinigen.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "metascan",
+      "name": "Metascan",
+      "category": "07-建模与BIM",
+      "subcategory": "3D建模",
+      "url": "null",
+      "developer": "App Store",
+      "scenes": [
+        "3D建模",
+        "BIM建模"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "metascan.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "opendatabim-cloud",
+      "name": "OpenDataBIM Cloud",
+      "category": "07-建模与BIM",
+      "subcategory": "3D建模",
+      "url": "null",
+      "developer": "All rights reserved by OpenDataBIM",
+      "scenes": [
+        "3D建模",
+        "BIM建模"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "免费",
+      "rating": "3",
+      "description": "",
+      "filename": "opendatabim-cloud.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "patabid",
+      "name": "PataBid",
+      "category": "07-建模与BIM",
+      "subcategory": "3D建模",
+      "url": "null",
+      "developer": "PataBid",
+      "scenes": [
+        "3D建模",
+        "BIM建模"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "patabid.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "pointfuse",
+      "name": "PointFuse",
+      "category": "07-建模与BIM",
+      "subcategory": "3D建模",
+      "url": "null",
+      "developer": "PointFuse",
+      "scenes": [
+        "3D建模",
+        "BIM建模"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "月付",
+      "rating": "3",
+      "description": "",
+      "filename": "pointfuse.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "ponzugg",
+      "name": "Ponzu.gg",
+      "category": "07-建模与BIM",
+      "subcategory": "3D建模",
+      "url": "null",
+      "developer": "Ponzu.gg",
+      "scenes": [
+        "3D建模",
+        "BIM建模"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "ponzugg.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "raven-grasshopper-ai",
+      "name": "Raven (Grasshopper AI)",
+      "category": "07-建模与BIM",
+      "subcategory": "3D建模",
+      "url": "null",
+      "developer": "Raven (Grasshopper AI)",
+      "scenes": [
+        "3D建模",
+        "BIM建模"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "raven-grasshopper-ai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "浩辰cad-ai",
+      "name": "浩辰CAD AI",
+      "category": "07-建模与BIM",
+      "subcategory": "3D建模",
+      "url": "null",
+      "developer": "浩辰CAD AI",
+      "scenes": [
+        "3D建模",
+        "BIM建模"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "浩辰cad-ai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "犀牛云ai插件",
+      "name": "犀牛云AI插件",
+      "category": "07-建模与BIM",
+      "subcategory": "3D建模",
+      "url": "null",
+      "developer": "犀牛云AI插件",
+      "scenes": [
+        "3D建模",
+        "BIM建模"
+      ],
+      "design_stages": [
+        "方案设计",
+        "扩初设计"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "犀牛云ai插件.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "Adobe_Substance_3D",
+      "name": "Adobe Substance 3D",
+      "category": "07-建模与BIM",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-12 | 编辑：待填",
+      "filename": "Adobe_Substance_3D.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "allsite-ai",
+      "name": "Allsite.ai",
+      "category": "07-建模与BIM",
+      "subcategory": "BIM协同",
+      "url": "https://www.allsite.ai",
+      "developer": "Allsite.ai",
+      "scenes": [],
+      "design_stages": [],
+      "pricing": "需询价",
+      "rating": "4",
+      "description": "",
+      "filename": "allsite-ai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "arealize",
+      "name": "Arealize",
+      "category": "07-建模与BIM",
+      "subcategory": "BIM协同",
+      "url": "null",
+      "developer": "Arealize",
+      "scenes": [
+        "BIM协同",
+        "数据交换"
+      ],
+      "design_stages": [
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "arealize.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "autodraw",
+      "name": "AutoDraw",
+      "category": "07-建模与BIM",
+      "subcategory": "BIM协同",
+      "url": "null",
+      "developer": "AutoDraw",
+      "scenes": [
+        "BIM协同",
+        "数据交换"
+      ],
+      "design_stages": [
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "autodraw.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "bimpool",
+      "name": "Bimpool",
+      "category": "07-建模与BIM",
+      "subcategory": "BIM协同",
+      "url": "null",
+      "developer": "Bimpool",
+      "scenes": [
+        "BIM协同",
+        "数据交换"
+      ],
+      "design_stages": [
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "bimpool.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "chatspeckle",
+      "name": "chatSpeckle",
+      "category": "07-建模与BIM",
+      "subcategory": "BIM协同",
+      "url": "null",
+      "developer": "chatSpeckle",
+      "scenes": [
+        "BIM协同",
+        "数据交换"
+      ],
+      "design_stages": [
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "chatspeckle.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "constru",
+      "name": "Constru",
+      "category": "07-建模与BIM",
+      "subcategory": "BIM协同",
+      "url": "null",
+      "developer": "Constru",
+      "scenes": [
+        "BIM协同",
+        "数据交换"
+      ],
+      "design_stages": [
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "constru.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "construction-iq",
+      "name": "Construction IQ",
+      "category": "07-建模与BIM",
+      "subcategory": "BIM协同",
+      "url": "null",
+      "developer": "Construction IQ",
+      "scenes": [
+        "BIM协同",
+        "数据交换"
+      ],
+      "design_stages": [
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "construction-iq.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "epic",
+      "name": "EPIC",
+      "category": "07-建模与BIM",
+      "subcategory": "BIM协同",
+      "url": "null",
+      "developer": "EPIC",
+      "scenes": [
+        "BIM协同",
+        "数据交换"
+      ],
+      "design_stages": [
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "epic.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "morpholio",
+      "name": "Morpholio",
+      "category": "07-建模与BIM",
+      "subcategory": "BIM协同",
+      "url": "null",
+      "developer": "Morpholio",
+      "scenes": [
+        "BIM协同",
+        "数据交换"
+      ],
+      "design_stages": [
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "morpholio.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "outline-ai",
+      "name": "Outline AI",
+      "category": "07-建模与BIM",
+      "subcategory": "BIM协同",
+      "url": "null",
+      "developer": "Outline AI",
+      "scenes": [
+        "BIM协同",
+        "数据交换"
+      ],
+      "design_stages": [
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "outline-ai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "tenderhub-by-revitalyze",
+      "name": "Tenderhub by revitalyze",
+      "category": "07-建模与BIM",
+      "subcategory": "BIM协同",
+      "url": "null",
+      "developer": "revitalyze",
+      "scenes": [
+        "BIM协同",
+        "数据交换"
+      ],
+      "design_stages": [
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "tenderhub-by-revitalyze.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "广联达ai-bim",
+      "name": "广联达AI-BIM",
+      "category": "07-建模与BIM",
+      "subcategory": "BIM协同",
+      "url": "null",
+      "developer": "广联达AI-BIM",
+      "scenes": [
+        "BIM协同",
+        "数据交换"
+      ],
+      "design_stages": [
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "广联达ai-bim.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "BlackShark_AI",
+      "name": "BlackShark AI",
+      "category": "07-建模与BIM",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-12 | 编辑：待填",
+      "filename": "BlackShark_AI.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "Constru",
+      "name": "Constru",
+      "category": "07-建模与BIM",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-12 | 编辑：待填",
+      "filename": "Constru.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "Construction_IQ",
+      "name": "Construction IQ",
+      "category": "07-建模与BIM",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-12 | 编辑：待填",
+      "filename": "Construction_IQ.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "Hypar",
+      "name": "Hypar",
+      "category": "07-建模与BIM",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-12 | 编辑：待填",
+      "filename": "Hypar.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "Speckle",
+      "name": "Speckle",
+      "category": "07-建模与BIM",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-12 | 编辑：待填",
+      "filename": "Speckle.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "场景综述_建模与BIM",
+      "name": "场景综述：建模与BIM",
+      "category": "07-建模与BIM",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-12 v3.0",
+      "filename": "场景综述_建模与BIM.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "atvero",
+      "name": "Atvero",
+      "category": "08-规范审查",
+      "subcategory": null,
+      "url": "null",
+      "developer": "Atvero",
+      "scenes": [
+        "规范审查"
+      ],
+      "design_stages": [
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "atvero.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "bimcontentcom",
+      "name": "BIMcontent.com",
+      "category": "08-规范审查",
+      "subcategory": null,
+      "url": "null",
+      "developer": "BIMcontent.com",
+      "scenes": [
+        "规范审查"
+      ],
+      "design_stages": [
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "bimcontentcom.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "blueprints-ai",
+      "name": "Blueprints AI",
+      "category": "08-规范审查",
+      "subcategory": null,
+      "url": "null",
+      "developer": "Blueprints AI",
+      "scenes": [
+        "规范审查"
+      ],
+      "design_stages": [
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "blueprints-ai.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "bricks",
+      "name": "Bricks",
+      "category": "08-规范审查",
+      "subcategory": null,
+      "url": "null",
+      "developer": "Bricks",
+      "scenes": [
+        "规范审查"
+      ],
+      "design_stages": [
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "免费",
+      "rating": "3",
+      "description": "",
+      "filename": "bricks.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "bricscad-bim",
+      "name": "BricsCAD BIM",
+      "category": "08-规范审查",
+      "subcategory": null,
+      "url": "null",
+      "developer": "Bricsys NV",
+      "scenes": [
+        "规范审查"
+      ],
+      "design_stages": [
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "bricscad-bim.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "category": "08-规范审查",
+      "subcategory": null,
+      "url": "null",
+      "developer": "ChatGPT",
+      "scenes": [
+        "规范审查"
+      ],
+      "design_stages": [
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "chatgpt.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "coefficient",
+      "name": "Coefficient",
+      "category": "08-规范审查",
+      "subcategory": null,
+      "url": "null",
+      "developer": "Coefficient",
+      "scenes": [
+        "规范审查"
+      ],
+      "design_stages": [
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "免费",
+      "rating": "3",
+      "description": "",
+      "filename": "coefficient.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "dimensionscom",
+      "name": "Dimensions.com",
+      "category": "08-规范审查",
+      "subcategory": null,
+      "url": "null",
+      "developer": "Dimensions.com",
+      "scenes": [
+        "规范审查"
+      ],
+      "design_stages": [
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "dimensionscom.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "green-badger",
+      "name": "Green Badger",
+      "category": "08-规范审查",
+      "subcategory": null,
+      "url": "null",
+      "developer": "Green Badger",
+      "scenes": [
+        "规范审查"
+      ],
+      "design_stages": [
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "green-badger.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "midship",
+      "name": "Midship",
+      "category": "08-规范审查",
+      "subcategory": null,
+      "url": "null",
+      "developer": "Midship",
+      "scenes": [
+        "规范审查"
+      ],
+      "design_stages": [
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "midship.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "neverwaste",
+      "name": "Neverwaste",
+      "category": "08-规范审查",
+      "subcategory": null,
+      "url": "null",
+      "developer": "Neverwaste",
+      "scenes": [
+        "规范审查"
+      ],
+      "design_stages": [
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "neverwaste.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "opendefinery",
+      "name": "OpenDefinery",
+      "category": "08-规范审查",
+      "subcategory": null,
+      "url": "null",
+      "developer": "OpenDefinery",
+      "scenes": [
+        "规范审查"
+      ],
+      "design_stages": [
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "opendefinery.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "planner5d",
+      "name": "Planner5D",
+      "category": "08-规范审查",
+      "subcategory": null,
+      "url": "null",
+      "developer": "Planner5D",
+      "scenes": [
+        "规范审查"
+      ],
+      "design_stages": [
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "planner5d.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "revolution-design-keynote-manager-revit",
+      "name": "Revolution Design | Keynote Manager Revit",
+      "category": "08-规范审查",
+      "subcategory": null,
+      "url": "null",
+      "developer": "Revolution Design | Keynote Manager Revit",
+      "scenes": [
+        "规范审查"
+      ],
+      "design_stages": [
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "revolution-design-keynote-manager-revit.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "stylib",
+      "name": "Stylib",
+      "category": "08-规范审查",
+      "subcategory": null,
+      "url": "null",
+      "developer": "Stylib",
+      "scenes": [
+        "规范审查"
+      ],
+      "design_stages": [
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "stylib.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "场景综述_规范审查",
+      "name": "场景综述：规范审查",
+      "category": "08-规范审查",
+      "subcategory": null,
+      "url": null,
+      "developer": null,
+      "scenes": [],
+      "design_stages": [],
+      "pricing": null,
+      "rating": null,
+      "description": "> 文档日期：2026-06-12",
+      "filename": "场景综述_规范审查.md",
+      "_has_frontmatter": false
+    },
+    {
+      "id": "智多星",
+      "name": "智多星",
+      "category": "08-规范审查",
+      "subcategory": null,
+      "url": "null",
+      "developer": "智多星",
+      "scenes": [
+        "规范审查",
+        "数据分析"
+      ],
+      "design_stages": [
+        "扩初设计",
+        "施工图"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "智多星.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "神州数码AI-BIM",
+      "name": "神州数码AI-BIM",
+      "category": "08-规范审查",
+      "subcategory": null,
+      "url": "null",
+      "developer": "神州数码AI-BIM",
+      "scenes": [
+        "规范审查"
+      ],
+      "design_stages": [
+        "扩初设计",
+        "施工图",
+        "施工配合"
+      ],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "神州数码AI-BIM.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "archgpt-stable-architecture",
+      "name": "ArchGPT / Stable Architecture",
+      "category": "09-学术与实验室",
+      "subcategory": null,
+      "url": "null",
+      "developer": "开源社区",
+      "scenes": [],
+      "design_stages": [],
+      "pricing": "免费",
+      "rating": "3",
+      "description": "",
+      "filename": "archgpt-stable-architecture.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "autodesk-ai-lab",
+      "name": "Autodesk AI Lab",
+      "category": "09-学术与实验室",
+      "subcategory": null,
+      "url": "https://labs.autodesk.com/",
+      "developer": "Autodesk",
+      "scenes": [],
+      "design_stages": [],
+      "pricing": "免费",
+      "rating": "4",
+      "description": "",
+      "filename": "autodesk-ai-lab.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "ilab-x-architecture-simulation",
+      "name": "iLab-X 建筑虚拟仿真实验平台",
+      "category": "09-学术与实验室",
+      "subcategory": null,
+      "url": "https://www.ilab-x.com/",
+      "developer": "教育部虚拟仿真实验教学创新联盟",
+      "scenes": [],
+      "design_stages": [],
+      "pricing": "免费",
+      "rating": "4",
+      "description": "",
+      "filename": "ilab-x-architecture-simulation.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "scut-ai-architecture-lab",
+      "name": "华南理工大学AI+建筑设计实验室",
+      "category": "09-学术与实验室",
+      "subcategory": null,
+      "url": "https://arch.scut.edu.cn/",
+      "developer": "华南理工大学建筑学院",
+      "scenes": [],
+      "design_stages": [],
+      "pricing": "免费",
+      "rating": "3",
+      "description": "",
+      "filename": "scut-ai-architecture-lab.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "tjad-ai-lab",
+      "name": "同济大学建筑设计研究院 (TJAD) AI 实验室",
+      "category": "09-学术与实验室",
+      "subcategory": null,
+      "url": "https://www.tjadri.com/",
+      "developer": "同济大学建筑设计研究院",
+      "scenes": [],
+      "design_stages": [],
+      "pricing": "需询价",
+      "rating": "3",
+      "description": "",
+      "filename": "tjad-ai-lab.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "tongji-dai-lab",
+      "name": "同济大学设计人工智能实验室 (D&AI Lab)",
+      "category": "09-学术与实验室",
+      "subcategory": null,
+      "url": "https://sheji.ai/",
+      "developer": "同济大学设计创意学院",
+      "scenes": [],
+      "design_stages": [],
+      "pricing": "免费",
+      "rating": "4",
+      "description": "",
+      "filename": "tongji-dai-lab.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "tsinghua-arch-digital-lab",
+      "name": "清华大学建筑学院数字技术实验室",
+      "category": "09-学术与实验室",
+      "subcategory": null,
+      "url": "https://arch.tsinghua.edu.cn/",
+      "developer": "清华大学建筑学院",
+      "scenes": [],
+      "design_stages": [],
+      "pricing": "免费",
+      "rating": "4",
+      "description": "",
+      "filename": "tsinghua-arch-digital-lab.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "zaha-ai-design-team",
+      "name": "扎哈事务所AI设计团队",
+      "category": "09-学术与实验室",
+      "subcategory": null,
+      "url": "https://www.zaha-hadid.com/",
+      "developer": "扎哈·哈迪德建筑事务所",
+      "scenes": [],
+      "design_stages": [],
+      "pricing": "需询价",
+      "rating": "4",
+      "description": "",
+      "filename": "zaha-ai-design-team.md",
+      "_has_frontmatter": true
+    },
+    {
+      "id": "advanced-artificial-intelligence-api",
+      "name": "Advanced Artificial Intelligence API",
+      "category": "10-其他",
+      "subcategory": null,
+      "url": "null",
+      "developer": "Advanced Artificial Intelligence API",
+      "scenes": [
+        "API/服务",
+        "AI助手"
+      ],
+      "design_stages": [
+        "方案设计"
+      ],
+      "pricing": "免费",
+      "rating": "3",
+      "description": "",
+      "filename": "advanced-artificial-intelligence-api.md",
+      "_has_frontmatter": true
+    }
+  ]
+}

@@ -1,0 +1,2102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>建筑师 AI 工具目录</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background:#f5f5f5; color:#333; }
+header { background:#1a1a2e; color:white; padding:24px 32px; }
+header h1 { font-size:1.5rem; }
+header p { color:#aaa; margin-top:4px; }
+.stats-bar { display:flex; gap:24px; padding:16px 32px; background:#16213e; color:#ccc; font-size:.85rem; }
+.stats-bar strong { color:white; }
+.container { max-width:1400px; margin:0 auto; padding:24px; }
+.cat-nav { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:24px; }
+.cat-btn { padding:8px 16px; border:1px solid #ddd; border-radius:20px; background:white; cursor:pointer; font-size:.85rem; transition:all .2s; }
+.cat-btn:hover, .cat-btn.active { background:#1a1a2e; color:white; border-color:#1a1a2e; }
+.cat-btn .count { font-size:.75rem; color:#999; }
+.cat-btn.active .count { color:#aaa; }
+.tool-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(380px, 1fr)); gap:16px; }
+.tool-card { background:white; border-radius:8px; padding:16px; border:1px solid #eee; transition:box-shadow .2s; }
+.tool-card:hover { box-shadow:0 4px 16px rgba(0,0,0,.08); }
+.tool-card.hidden { display:none; }
+.tool-header { display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; }
+.tool-name { font-weight:600; }
+.tool-name a { color:#1a1a2e; text-decoration:none; }
+.tool-name a:hover { text-decoration:underline; }
+.tool-meta { display:flex; flex-wrap:wrap; gap:4px; align-items:center; margin-bottom:8px; font-size:.8rem; }
+.tag { background:#e8f4fd; color:#1976d2; padding:2px 8px; border-radius:10px; font-size:.75rem; }
+.subcat { background:#f3e5f5; color:#7b1fa2; padding:2px 8px; border-radius:10px; font-size:.75rem; }
+.dev { color:#666; }
+.price { color:#888; font-size:.75rem; }
+.rating { color:#f39c12; font-size:.85rem; }
+.tool-desc { font-size:.85rem; color:#555; line-height:1.5; }
+.search-box { width:100%; padding:12px 16px; border:1px solid #ddd; border-radius:8px; font-size:1rem; margin-bottom:16px; }
+.search-box:focus { outline:none; border-color:#1a1a2e; }
+.no-results { display:none; text-align:center; padding:48px; color:#999; }
+footer { text-align:center; color:#999; padding:32px; font-size:.85rem; }
+footer a { color:#666; }
+@media (max-width:768px) { .tool-grid { grid-template-columns:1fr; } .stats-bar { flex-direction:column; gap:8px; } }
+</style>
+</head>
+<body>
+<header>
+    <h1>建筑师 AI 工具目录</h1>
+    <p>从海量 AI 工具中筛选出真正对建筑师有用的 — 告诉你怎么选、什么时候用、为什么</p>
+</header>
+<div class="stats-bar">
+    <span>工具总数: <strong>221</strong></span>
+    <span>Wiki 工具: <strong>179</strong></span>
+    <span>评测文档: <strong>42</strong></span>
+    <span>分类: <strong>10</strong> 个</span>
+    <span>更新: <strong>2026-06-26 01:53</strong></span>
+</div>
+<div class="container">
+    <input type="text" class="search-box" id="search" placeholder="搜索工具名称、开发者、场景标签...">
+    <div class="cat-nav">
+        <button class="cat-btn active" data-cat="all">全部 <span class="count">221</span></button>
+        <button class="cat-btn" data-cat="01-方案生成与概念">方案生成与概念 <span class="count">28</span></button>
+<button class="cat-btn" data-cat="02-效果图与渲染">效果图与渲染 <span class="count">50</span></button>
+<button class="cat-btn" data-cat="03-绘图与手绘">绘图与手绘 <span class="count">1</span></button>
+<button class="cat-btn" data-cat="04-AI助手与知识">AI助手与知识 <span class="count">27</span></button>
+<button class="cat-btn" data-cat="05-汇报与数据">汇报与数据 <span class="count">43</span></button>
+<button class="cat-btn" data-cat="06-绿色与性能">绿色与性能 <span class="count">9</span></button>
+<button class="cat-btn" data-cat="07-建模与BIM">建模与BIM <span class="count">36</span></button>
+<button class="cat-btn" data-cat="08-规范审查">规范审查 <span class="count">18</span></button>
+<button class="cat-btn" data-cat="09-学术与实验室">学术与实验室 <span class="count">8</span></button>
+<button class="cat-btn" data-cat="10-其他">其他 <span class="count">1</span></button>
+
+    </div>
+    <div class="tool-grid" id="toolGrid">
+        
+    <div class="tool-card" data-category="01-方案生成与概念" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">ChatGPT</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-12 | 编辑：待填</p>
+    </div>
+
+    <div class="tool-card" data-category="01-方案生成与概念" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">Finch 3D</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-12 | 编辑：待填</p>
+    </div>
+
+    <div class="tool-card" data-category="01-方案生成与概念" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">Gemini Imagen</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-12 | 编辑：待填</p>
+    </div>
+
+    <div class="tool-card" data-category="01-方案生成与概念" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">GPT-image 2</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-12 | 编辑：待填</p>
+    </div>
+
+    <div class="tool-card" data-category="01-方案生成与概念" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">Maket.ai</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-12 | 编辑：待填</p>
+    </div>
+
+    <div class="tool-card" data-category="01-方案生成与概念" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">场景综述：方案生成与概念</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-12</p>
+    </div>
+
+    <div class="tool-card" data-category="01-方案生成与概念" data-scenes="方案生成,概念设计">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">ArkDesign.ai</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">方案生成</span> <span class="tag">方案生成</span><span class="tag">概念设计</span> <span class="dev">ArkDesign.ai</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="01-方案生成与概念" data-scenes="方案生成,概念设计">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">BREVIAN</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">方案生成</span> <span class="tag">方案生成</span><span class="tag">概念设计</span> <span class="dev">BREVIAN</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="01-方案生成与概念" data-scenes="方案生成,概念设计">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Chatbase</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">方案生成</span> <span class="tag">方案生成</span><span class="tag">概念设计</span> <span class="dev">Chatbase</span> <span class="price">免费</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="01-方案生成与概念" data-scenes="方案生成,概念设计">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Fabric</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">方案生成</span> <span class="tag">方案生成</span><span class="tag">概念设计</span> <span class="dev">Fabric</span> <span class="price">免费</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="01-方案生成与概念" data-scenes="方案生成,概念设计">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Finch 3D</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">方案生成</span> <span class="tag">方案生成</span><span class="tag">概念设计</span> <span class="dev">Finch 3D</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="01-方案生成与概念" data-scenes="方案生成,概念设计">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">fyli</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">方案生成</span> <span class="tag">方案生成</span><span class="tag">概念设计</span> <span class="dev">Atom</span> <span class="price">免费</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="01-方案生成与概念" data-scenes="方案生成,概念设计">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">GodMode</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">方案生成</span> <span class="tag">方案生成</span><span class="tag">概念设计</span> <span class="dev">GodMode</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="01-方案生成与概念" data-scenes="方案生成,概念设计">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">GPTSidekick</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">方案生成</span> <span class="tag">方案生成</span><span class="tag">概念设计</span> <span class="dev">GPTSidekick</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="01-方案生成与概念" data-scenes="方案生成,概念设计">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Jeda</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">方案生成</span> <span class="tag">方案生成</span><span class="tag">概念设计</span> <span class="dev">Jeda.ai</span> <span class="price">免费</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="01-方案生成与概念" data-scenes="方案生成,概念设计">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Keepi</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">方案生成</span> <span class="tag">方案生成</span><span class="tag">概念设计</span> <span class="dev">Dancing Apps</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="01-方案生成与概念" data-scenes="方案生成,概念设计">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Knowledge Architecture</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">方案生成</span> <span class="tag">方案生成</span><span class="tag">概念设计</span> <span class="dev">Knowledge Architecture</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="01-方案生成与概念" data-scenes="方案生成,概念设计">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Laiout</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">方案生成</span> <span class="tag">方案生成</span><span class="tag">概念设计</span> <span class="dev">laiout</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="01-方案生成与概念" data-scenes="方案生成,概念设计">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Maket.ai</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">方案生成</span> <span class="tag">方案生成</span><span class="tag">概念设计</span> <span class="dev">Maket.ai</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="01-方案生成与概念" data-scenes="方案生成,概念设计">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">n8n</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">方案生成</span> <span class="tag">方案生成</span><span class="tag">概念设计</span> <span class="dev">n8n</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="01-方案生成与概念" data-scenes="方案生成,概念设计">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">PopAi</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">方案生成</span> <span class="tag">方案生成</span><span class="tag">概念设计</span> <span class="dev">PopAi</span> <span class="price">免费</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="01-方案生成与概念" data-scenes="方案生成,概念设计">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Questflow</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">方案生成</span> <span class="tag">方案生成</span><span class="tag">概念设计</span> <span class="dev">Questflow</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="01-方案生成与概念" data-scenes="方案生成,概念设计">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Script.It</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">方案生成</span> <span class="tag">方案生成</span><span class="tag">概念设计</span> <span class="dev">Script.It</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="01-方案生成与概念" data-scenes="方案生成,概念设计">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">ShortlistIQ</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">方案生成</span> <span class="tag">方案生成</span><span class="tag">概念设计</span> <span class="dev">ShortlistIQ</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="01-方案生成与概念" data-scenes="方案生成,概念设计">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">SlidesAI</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">方案生成</span> <span class="tag">方案生成</span><span class="tag">概念设计</span> <span class="dev">SlidesAI</span> <span class="price">免费</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="01-方案生成与概念" data-scenes="方案生成,概念设计">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">三维家AI</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">方案生成</span> <span class="tag">方案生成</span><span class="tag">概念设计</span> <span class="dev">三维家AI</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="01-方案生成与概念" data-scenes="方案生成,概念设计">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">居然设计家AI</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">方案生成</span> <span class="tag">方案生成</span><span class="tag">概念设计</span> <span class="dev">居然设计家AI</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="01-方案生成与概念" data-scenes="方案生成,概念设计">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">酷家乐AI</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">方案生成</span> <span class="tag">方案生成</span><span class="tag">概念设计</span> <span class="dev">酷家乐AI</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">3D Warehouse (for SketchUp)</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">3D Warehouse (for SketchUp)</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">3DGURU</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">3DGURU</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Adobe Firefly</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">Adobe Firefly</span> <span class="price">免费</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">ArchitectGPT</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">ArchitectGPT</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">ArchiVinci</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">ArchiVinci</span> <span class="price">免费</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">ArkoAI</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">ArkoAI</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Clipdrop</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">InitML</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">cre[ai]tion</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">cre[ai]tion</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">D5 Render AI Suite</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">D5 Render AI Suite</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">D5 Render</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">D5 Render</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">DALL-E 3</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">DALL-E 3</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">DeepFloyd IF (by Stability AI)</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">DeepFloyd IF (by Stability AI)</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">dreamlook.ai (by NyxAI)</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">dreamlook.ai (by NyxAI)</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">DreamStaging.AI</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">DreamStaging.AI</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">EarthCam</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">EarthCam</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Enscape AI降噪</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">Enscape AI降噪</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">EVAI建筑大师</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">EVAI建筑大师</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Fenestra</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">Fenestra</span> <span class="price">免费</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,方案生成">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Gemini Imagen</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">方案生成</span> <span class="dev">Gemini Imagen</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Genera.so</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">Genera.so</span> <span class="price">免费</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,方案生成">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">GPT-image 2</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">方案生成</span> <span class="dev">GPT-image 2</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Gyre</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">Gyre</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">InteriorAI</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">InteriorAI</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Leonardo.Ai</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">Leonardo.Ai</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Lumion 2026 AI Assist</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">Lumion 2026 AI Assist</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理,汇报输出">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Magnific</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span><span class="tag">汇报输出</span> <span class="dev">Freepik / Magnific</span> <span class="price">订阅制 + credits</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Midjourney V7</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">Midjourney V7</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Musavir</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">Musavir</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">MyArchitectAI</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">MyArchitectAI</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">PromeAI</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">PromeAI</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Reviz</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">Reviz</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">SketchUp Diffusion</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">SketchUp Diffusion</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Spaces</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">DEMO SLOT GRATIS</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Stable Diffusion Reimagine (Clipdrop)</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">InitML</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Stable Diffusion XL</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">Stable Diffusion XL</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Veras (EvolveLAB)</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">Veras (EvolveLAB)</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">云图AI</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">云图AI</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="https://www.jianzhuxuezhang.com" target="_blank" rel="noopener">建筑学长AI</a></span>
+            <span class="rating">★★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">次元空间（重庆）网络科技有限公司</span> <span class="price">混合定价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">模袋云AI</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">模袋云AI</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="AI渲染,图像处理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">豆绘AI</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI渲染</span> <span class="tag">AI渲染</span><span class="tag">图像处理</span> <span class="dev">豆绘AI</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">ArchLink</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-12 | 编辑：待填</p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">EVAI 建筑大师</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-12 | 编辑：待填</p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">Magnific</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-15 | 编辑：Claude</p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">场景综述：效果图与渲染</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-12</p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">建筑学长 AI</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-15 | 编辑：待填</p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">效果图 AI 产品方成本利润估算</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-12</p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">效果图场景竞争地图</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-17</p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">效果图工具套壳技术解析</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-17</p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">三大图像生成入口架构对比：SD vs Nano Banana vs GPT-image</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-15</p>
+    </div>
+
+    <div class="tool-card" data-category="02-效果图与渲染" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">建筑团队 AI 工具采购 ROI 对比</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-15</p>
+    </div>
+
+    <div class="tool-card" data-category="03-绘图与手绘" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">场景综述：绘图与手绘</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-12 v3.0</p>
+    </div>
+
+    <div class="tool-card" data-category="04-AI助手与知识" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">AI4Scholar</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-13 | 编辑：待填</p>
+    </div>
+
+    <div class="tool-card" data-category="04-AI助手与知识" data-scenes="AI助手,知识问答">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">AAD建筑AI文化网</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI助手</span> <span class="tag">AI助手</span><span class="tag">知识问答</span> <span class="dev">AAD建筑AI文化网</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="04-AI助手与知识" data-scenes="AI助手,知识问答">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">adrianhajdin/roomify</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI助手</span> <span class="tag">AI助手</span><span class="tag">知识问答</span> <span class="dev">adrianhajdin/roomify</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="04-AI助手与知识" data-scenes="AI助手">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">AI Assist</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI助手</span> <span class="tag">AI助手</span> <span class="dev">AI Assist</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="04-AI助手与知识" data-scenes="AI助手,知识问答">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">AI Tools Directory</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI助手</span> <span class="tag">AI助手</span><span class="tag">知识问答</span> <span class="dev">AI Tools Directory</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="04-AI助手与知识" data-scenes="AI助手,知识问答">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">AIHub建筑专区</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI助手</span> <span class="tag">AI助手</span><span class="tag">知识问答</span> <span class="dev">AIHub建筑专区</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="04-AI助手与知识" data-scenes="AI助手,知识问答">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">ArchitectureTools AI</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI助手</span> <span class="tag">AI助手</span><span class="tag">知识问答</span> <span class="dev">ArchitectureTools AI</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="04-AI助手与知识" data-scenes="AI助手,知识问答">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Archomation</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI助手</span> <span class="tag">AI助手</span><span class="tag">知识问答</span> <span class="dev">Archomation</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="04-AI助手与知识" data-scenes="AI助手,知识问答">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">ArchPulse</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI助手</span> <span class="tag">AI助手</span><span class="tag">知识问答</span> <span class="dev">ArchPulse</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="04-AI助手与知识" data-scenes="AI助手">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">conversant.ai</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI助手</span> <span class="tag">AI助手</span> <span class="dev">Conversant AI</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="04-AI助手与知识" data-scenes="AI助手,知识问答">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Designing Buildings Wiki AI</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI助手</span> <span class="tag">AI助手</span><span class="tag">知识问答</span> <span class="dev">Designing Buildings Wiki AI</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="04-AI助手与知识" data-scenes="AI助手,知识问答">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">dseditor/AIStudioFloorPlan</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI助手</span> <span class="tag">AI助手</span><span class="tag">知识问答</span> <span class="dev">dseditor/AIStudioFloorPlan</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="04-AI助手与知识" data-scenes="AI助手,知识问答">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">FutureBuiltAI</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI助手</span> <span class="tag">AI助手</span><span class="tag">知识问答</span> <span class="dev">FutureBuiltAI</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="04-AI助手与知识" data-scenes="AI助手">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Holly</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI助手</span> <span class="tag">AI助手</span> <span class="dev">HiringAgents.ai</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="04-AI助手与知识" data-scenes="AI助手,知识问答">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">IllustrArch</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI助手</span> <span class="tag">AI助手</span><span class="tag">知识问答</span> <span class="dev">IllustrArch</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="04-AI助手与知识" data-scenes="AI助手,知识问答">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">MakeAiPrompt</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI助手</span> <span class="tag">AI助手</span><span class="tag">知识问答</span> <span class="dev">MakeAiPrompt</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="04-AI助手与知识" data-scenes="AI助手,知识问答">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">PawelKinczyk/AECVision</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI助手</span> <span class="tag">AI助手</span><span class="tag">知识问答</span> <span class="dev">PawelKinczyk/AECVision</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="04-AI助手与知识" data-scenes="AI助手">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Practica</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI助手</span> <span class="tag">AI助手</span> <span class="dev">Practica</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="04-AI助手与知识" data-scenes="AI助手,知识问答">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Toolify Architect</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI助手</span> <span class="tag">AI助手</span><span class="tag">知识问答</span> <span class="dev">Toolify Architect</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="04-AI助手与知识" data-scenes="AI助手">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Vinteo AI</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI助手</span> <span class="tag">AI助手</span> <span class="dev">Vinteo AI</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="04-AI助手与知识" data-scenes="AI助手,知识问答">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">建筑曲奇AI导航</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">AI助手</span> <span class="tag">AI助手</span><span class="tag">知识问答</span> <span class="dev">建筑曲奇AI导航</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="04-AI助手与知识" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">Dimensions.com</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-12 | 编辑：待填</p>
+    </div>
+
+    <div class="tool-card" data-category="04-AI助手与知识" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">Stylib</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-12 | 编辑：待填</p>
+    </div>
+
+    <div class="tool-card" data-category="04-AI助手与知识" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">场景综述：AI助手与知识</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-12</p>
+    </div>
+
+    <div class="tool-card" data-category="04-AI助手与知识" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">孟祥和-建筑科技与AI 公众号文章索引</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 抓取日期：2026-06-13</p>
+    </div>
+
+    <div class="tool-card" data-category="04-AI助手与知识" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">建筑曲奇 AI 导航</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 类型：单产品评测 | 文档日期：2026-06-12 | 编辑：待填</p>
+    </div>
+
+    <div class="tool-card" data-category="04-AI助手与知识" data-scenes="知识问答,数据分析,文档管理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">AI4Scholar</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">知识问答</span> <span class="tag">知识问答</span><span class="tag">数据分析</span><span class="tag">文档管理</span> <span class="dev">AI4Scholar</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">BrainyAI</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-12 | 编辑：待填</p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">iRhino 3D</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-12 | 编辑：待填</p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="PPT演示,汇报输出">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">豆包</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">PPT演示</span> <span class="tag">PPT演示</span><span class="tag">汇报输出</span> <span class="dev">豆包</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">可灵 Kling</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-12 | 编辑：待填</p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">场景综述：汇报与数据</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-12 v3.0</p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="城市数据,性能分析">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">AI SpaceFactory</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">城市数据</span> <span class="tag">城市数据</span><span class="tag">性能分析</span> <span class="dev">AI SpaceFactory</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name"><a href="https://www.aino.world" target="_blank" rel="noopener">Aino.world</a></span>
+            <span class="rating">★★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">城市数据</span>  <span class="dev">Aino World Inc.</span> <span class="price">月付</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name"><a href="https://www.esri.com/en-us/arcgis/products" target="_blank" rel="noopener">ArcGIS (Esri)</a></span>
+            <span class="rating">★★★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">城市数据</span>  <span class="dev">Esri</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="城市数据,性能分析">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Archistar</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">城市数据</span> <span class="tag">城市数据</span><span class="tag">性能分析</span> <span class="dev">Archistar</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="城市数据,性能分析">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Autodesk Forma</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">城市数据</span> <span class="tag">城市数据</span><span class="tag">性能分析</span> <span class="dev">Autodesk Forma</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="城市数据,性能分析">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">ConcertVDC</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">城市数据</span> <span class="tag">城市数据</span><span class="tag">性能分析</span> <span class="dev">ConcertVDC</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="城市数据,性能分析">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Cove.tool</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">城市数据</span> <span class="tag">城市数据</span><span class="tag">性能分析</span> <span class="dev">Cove.tool</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="城市数据,性能分析">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Digital Blue Foam</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">城市数据</span> <span class="tag">城市数据</span><span class="tag">性能分析</span> <span class="dev">DigitalBlueFoam</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name"><a href="https://flypix.ai" target="_blank" rel="noopener">FlyPix AI</a></span>
+            <span class="rating">★★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">城市数据</span>  <span class="dev">FlyPix GmbH</span> <span class="price">按量付费</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="城市数据,性能分析">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">HoloBuilder</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">城市数据</span> <span class="tag">城市数据</span><span class="tag">性能分析</span> <span class="dev">HoloBuilder</span> <span class="price">免费</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="城市数据,性能分析">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">IES VE AI</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">城市数据</span> <span class="tag">城市数据</span><span class="tag">性能分析</span> <span class="dev">IES VE AI</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="城市数据,性能分析">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Imerso</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">城市数据</span> <span class="tag">城市数据</span><span class="tag">性能分析</span> <span class="dev">Imerso</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="城市数据">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Intelmatix</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">城市数据</span> <span class="tag">城市数据</span> <span class="dev">BoronStudio</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="城市数据,性能分析">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Kumu</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">城市数据</span> <span class="tag">城市数据</span><span class="tag">性能分析</span> <span class="dev">Kumu</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="城市数据,性能分析">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Layer</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">城市数据</span> <span class="tag">城市数据</span><span class="tag">性能分析</span> <span class="dev">Layer</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="城市数据,性能分析">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Lepei.ai</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">城市数据</span> <span class="tag">城市数据</span><span class="tag">性能分析</span> <span class="dev">Lepei.ai</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="城市数据,性能分析">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Monolith AI</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">城市数据</span> <span class="tag">城市数据</span><span class="tag">性能分析</span> <span class="dev">Monolith AI</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name"><a href="https://www.nearmap.com" target="_blank" rel="noopener">Nearmap</a></span>
+            <span class="rating">★★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">城市数据</span>  <span class="dev">Nearmap Ltd</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="城市数据,性能分析">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Neuron (by Arup)</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">城市数据</span> <span class="tag">城市数据</span><span class="tag">性能分析</span> <span class="dev">Neuron (by Arup)</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="城市数据,性能分析">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Parallelo</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">城市数据</span> <span class="tag">城市数据</span><span class="tag">性能分析</span> <span class="dev">Parallelo</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="城市数据,性能分析">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Pype AI (Autodesk)</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">城市数据</span> <span class="tag">城市数据</span><span class="tag">性能分析</span> <span class="dev">Pype AI (Autodesk)</span> <span class="price">月付</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name"><a href="https://www.qgis.org" target="_blank" rel="noopener">QGIS</a></span>
+            <span class="rating">★★★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">城市数据</span>  <span class="dev">QGIS.org（国际开源社区）</span> <span class="price">免费</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="城市数据,性能分析">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Sefaira</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">城市数据</span> <span class="tag">城市数据</span><span class="tag">性能分析</span> <span class="dev">Sefaira</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="城市数据,性能分析">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Speckle</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">城市数据</span> <span class="tag">城市数据</span><span class="tag">性能分析</span> <span class="dev">Speckle</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="城市数据,性能分析">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">T2D2</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">城市数据</span> <span class="tag">城市数据</span><span class="tag">性能分析</span> <span class="dev">T2D2</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="城市数据,性能分析">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">TestFit</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">城市数据</span> <span class="tag">城市数据</span><span class="tag">性能分析</span> <span class="dev">TestFit</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="城市数据,性能分析">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Topologic</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">城市数据</span> <span class="tag">城市数据</span><span class="tag">性能分析</span> <span class="dev">Topologic</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="城市数据,性能分析">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Urban Dashboard</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">城市数据</span> <span class="tag">城市数据</span><span class="tag">性能分析</span> <span class="dev">Urban Dashboard</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="城市数据,性能分析">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Zenesis</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">城市数据</span> <span class="tag">城市数据</span><span class="tag">性能分析</span> <span class="dev">Zenesis GmbH</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="城市数据,性能分析">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">广联达绿建AI</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">城市数据</span> <span class="tag">城市数据</span><span class="tag">性能分析</span> <span class="dev">广联达绿建AI</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="数据管理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Memtime</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">数据管理</span> <span class="tag">数据管理</span> <span class="dev">Memtime</span> <span class="price">免费</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="汇报输出,PPT演示">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">BrainyAI</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">汇报输出</span> <span class="tag">汇报输出</span><span class="tag">PPT演示</span> <span class="dev">Brainy</span> <span class="price">免费</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="汇报输出,PPT演示">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">iRhino 3D</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">汇报输出</span> <span class="tag">汇报输出</span><span class="tag">PPT演示</span> <span class="dev">App Store</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="汇报输出,PPT演示">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">KOMPAS</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">汇报输出</span> <span class="tag">汇报输出</span><span class="tag">PPT演示</span> <span class="dev">KOMPAS VC</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="汇报输出,PPT演示">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">proprty.ai</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">汇报输出</span> <span class="tag">汇报输出</span><span class="tag">PPT演示</span> <span class="dev">proprty.ai</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="汇报输出,PPT演示">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Sendbird</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">汇报输出</span> <span class="tag">汇报输出</span><span class="tag">PPT演示</span> <span class="dev">Sendbird</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="汇报输出,PPT演示">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">可灵Kling</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">汇报输出</span> <span class="tag">汇报输出</span><span class="tag">PPT演示</span> <span class="dev">可灵Kling</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="05-汇报与数据" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">豆包</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-13 | 编辑：待填</p>
+    </div>
+
+    <div class="tool-card" data-category="06-绿色与性能" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">Archistar</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-12 | 编辑：待填</p>
+    </div>
+
+    <div class="tool-card" data-category="06-绿色与性能" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">Autodesk Forma</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-12 | 编辑：待填</p>
+    </div>
+
+    <div class="tool-card" data-category="06-绿色与性能" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">Cove.tool</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-12 | 编辑：待填</p>
+    </div>
+
+    <div class="tool-card" data-category="06-绿色与性能" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">EarthCam</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-12 | 编辑：待填</p>
+    </div>
+
+    <div class="tool-card" data-category="06-绿色与性能" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">TestFit</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-12 | 编辑：待填</p>
+    </div>
+
+    <div class="tool-card" data-category="06-绿色与性能" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">场景综述：绿色与性能</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-12</p>
+    </div>
+
+    <div class="tool-card" data-category="06-绿色与性能" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name"><a href="https://www.albedya.com" target="_blank" rel="noopener">Albedya</a></span>
+            <span class="rating">★★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">绿色建筑</span>  <span class="dev">Albedya</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="06-绿色与性能" data-scenes="绿色建筑,性能分析">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Measurable Energy</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">绿色建筑</span> <span class="tag">绿色建筑</span><span class="tag">性能分析</span> <span class="dev">measurable.energy</span> <span class="price">免费</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="06-绿色与性能" data-scenes="绿色建筑,数据管理">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">revalu.io</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">绿色建筑</span> <span class="tag">绿色建筑</span><span class="tag">数据管理</span> <span class="dev">revalu</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="3D建模,BIM建模">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">3DFY.ai</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">3D建模</span> <span class="tag">3D建模</span><span class="tag">BIM建模</span> <span class="dev">3DFY.ai</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="3D建模,BIM建模">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Adobe Substance 3D</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">3D建模</span> <span class="tag">3D建模</span><span class="tag">BIM建模</span> <span class="dev">Adobe Substance 3D</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="3D建模,BIM建模">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">AECforward</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">3D建模</span> <span class="tag">3D建模</span><span class="tag">BIM建模</span> <span class="dev">AECforward</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="3D建模,BIM建模">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">AMC Bridge</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">3D建模</span> <span class="tag">3D建模</span><span class="tag">BIM建模</span> <span class="dev">AMC Bridge</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="3D建模,BIM建模">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">BlackShark AI</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">3D建模</span> <span class="tag">3D建模</span><span class="tag">BIM建模</span> <span class="dev">BlackShark AI</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="3D建模,BIM建模">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">DATAVERSE</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">3D建模</span> <span class="tag">3D建模</span><span class="tag">BIM建模</span> <span class="dev">DATAVERSE</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="3D建模,BIM建模">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Devpost</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">3D建模</span> <span class="tag">3D建模</span><span class="tag">BIM建模</span> <span class="dev">Devpost</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="3D建模,BIM建模">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Hypar</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">3D建模</span> <span class="tag">3D建模</span><span class="tag">BIM建模</span> <span class="dev">Hypar</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="3D建模,BIM建模">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Infinigen</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">3D建模</span> <span class="tag">3D建模</span><span class="tag">BIM建模</span> <span class="dev">Infinigen</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="3D建模,BIM建模">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Metascan</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">3D建模</span> <span class="tag">3D建模</span><span class="tag">BIM建模</span> <span class="dev">App Store</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="3D建模,BIM建模">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">OpenDataBIM Cloud</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">3D建模</span> <span class="tag">3D建模</span><span class="tag">BIM建模</span> <span class="dev">All rights reserved by OpenDataBIM</span> <span class="price">免费</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="3D建模,BIM建模">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">PataBid</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">3D建模</span> <span class="tag">3D建模</span><span class="tag">BIM建模</span> <span class="dev">PataBid</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="3D建模,BIM建模">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">PointFuse</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">3D建模</span> <span class="tag">3D建模</span><span class="tag">BIM建模</span> <span class="dev">PointFuse</span> <span class="price">月付</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="3D建模,BIM建模">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Ponzu.gg</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">3D建模</span> <span class="tag">3D建模</span><span class="tag">BIM建模</span> <span class="dev">Ponzu.gg</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="3D建模,BIM建模">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Raven (Grasshopper AI)</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">3D建模</span> <span class="tag">3D建模</span><span class="tag">BIM建模</span> <span class="dev">Raven (Grasshopper AI)</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="3D建模,BIM建模">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">浩辰CAD AI</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">3D建模</span> <span class="tag">3D建模</span><span class="tag">BIM建模</span> <span class="dev">浩辰CAD AI</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="3D建模,BIM建模">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">犀牛云AI插件</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">3D建模</span> <span class="tag">3D建模</span><span class="tag">BIM建模</span> <span class="dev">犀牛云AI插件</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">Adobe Substance 3D</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-12 | 编辑：待填</p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name"><a href="https://www.allsite.ai" target="_blank" rel="noopener">Allsite.ai</a></span>
+            <span class="rating">★★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">BIM协同</span>  <span class="dev">Allsite.ai</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="BIM协同,数据交换">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Arealize</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">BIM协同</span> <span class="tag">BIM协同</span><span class="tag">数据交换</span> <span class="dev">Arealize</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="BIM协同,数据交换">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">AutoDraw</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">BIM协同</span> <span class="tag">BIM协同</span><span class="tag">数据交换</span> <span class="dev">AutoDraw</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="BIM协同,数据交换">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Bimpool</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">BIM协同</span> <span class="tag">BIM协同</span><span class="tag">数据交换</span> <span class="dev">Bimpool</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="BIM协同,数据交换">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">chatSpeckle</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">BIM协同</span> <span class="tag">BIM协同</span><span class="tag">数据交换</span> <span class="dev">chatSpeckle</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="BIM协同,数据交换">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Constru</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">BIM协同</span> <span class="tag">BIM协同</span><span class="tag">数据交换</span> <span class="dev">Constru</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="BIM协同,数据交换">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Construction IQ</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">BIM协同</span> <span class="tag">BIM协同</span><span class="tag">数据交换</span> <span class="dev">Construction IQ</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="BIM协同,数据交换">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">EPIC</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">BIM协同</span> <span class="tag">BIM协同</span><span class="tag">数据交换</span> <span class="dev">EPIC</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="BIM协同,数据交换">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Morpholio</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">BIM协同</span> <span class="tag">BIM协同</span><span class="tag">数据交换</span> <span class="dev">Morpholio</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="BIM协同,数据交换">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Outline AI</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">BIM协同</span> <span class="tag">BIM协同</span><span class="tag">数据交换</span> <span class="dev">Outline AI</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="BIM协同,数据交换">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Tenderhub by revitalyze</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">BIM协同</span> <span class="tag">BIM协同</span><span class="tag">数据交换</span> <span class="dev">revitalyze</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="BIM协同,数据交换">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">广联达AI-BIM</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"><span class="subcat">BIM协同</span> <span class="tag">BIM协同</span><span class="tag">数据交换</span> <span class="dev">广联达AI-BIM</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">BlackShark AI</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-12 | 编辑：待填</p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">Constru</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-12 | 编辑：待填</p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">Construction IQ</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-12 | 编辑：待填</p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">Hypar</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-12 | 编辑：待填</p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">Speckle</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-12 | 编辑：待填</p>
+    </div>
+
+    <div class="tool-card" data-category="07-建模与BIM" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">场景综述：建模与BIM</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-12 v3.0</p>
+    </div>
+
+    <div class="tool-card" data-category="08-规范审查" data-scenes="规范审查">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Atvero</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"> <span class="tag">规范审查</span> <span class="dev">Atvero</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="08-规范审查" data-scenes="规范审查">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">BIMcontent.com</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"> <span class="tag">规范审查</span> <span class="dev">BIMcontent.com</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="08-规范审查" data-scenes="规范审查">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Blueprints AI</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"> <span class="tag">规范审查</span> <span class="dev">Blueprints AI</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="08-规范审查" data-scenes="规范审查">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Bricks</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"> <span class="tag">规范审查</span> <span class="dev">Bricks</span> <span class="price">免费</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="08-规范审查" data-scenes="规范审查">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">BricsCAD BIM</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"> <span class="tag">规范审查</span> <span class="dev">Bricsys NV</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="08-规范审查" data-scenes="规范审查">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">ChatGPT</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"> <span class="tag">规范审查</span> <span class="dev">ChatGPT</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="08-规范审查" data-scenes="规范审查">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Coefficient</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"> <span class="tag">规范审查</span> <span class="dev">Coefficient</span> <span class="price">免费</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="08-规范审查" data-scenes="规范审查">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Dimensions.com</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"> <span class="tag">规范审查</span> <span class="dev">Dimensions.com</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="08-规范审查" data-scenes="规范审查">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Green Badger</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"> <span class="tag">规范审查</span> <span class="dev">Green Badger</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="08-规范审查" data-scenes="规范审查">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Midship</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"> <span class="tag">规范审查</span> <span class="dev">Midship</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="08-规范审查" data-scenes="规范审查">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Neverwaste</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"> <span class="tag">规范审查</span> <span class="dev">Neverwaste</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="08-规范审查" data-scenes="规范审查">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">OpenDefinery</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"> <span class="tag">规范审查</span> <span class="dev">OpenDefinery</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="08-规范审查" data-scenes="规范审查">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Planner5D</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"> <span class="tag">规范审查</span> <span class="dev">Planner5D</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="08-规范审查" data-scenes="规范审查">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Revolution Design | Keynote Manager Revit</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"> <span class="tag">规范审查</span> <span class="dev">Revolution Design | Keynote Manager Revit</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="08-规范审查" data-scenes="规范审查">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Stylib</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"> <span class="tag">规范审查</span> <span class="dev">Stylib</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="08-规范审查" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name">场景综述：规范审查</span>
+            
+        </div>
+        <div class="tool-meta">  <span class="dev"></span> <span class="price"></span></div>
+        <p class="tool-desc">> 文档日期：2026-06-12</p>
+    </div>
+
+    <div class="tool-card" data-category="08-规范审查" data-scenes="规范审查,数据分析">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">智多星</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"> <span class="tag">规范审查</span><span class="tag">数据分析</span> <span class="dev">智多星</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="08-规范审查" data-scenes="规范审查">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">神州数码AI-BIM</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"> <span class="tag">规范审查</span> <span class="dev">神州数码AI-BIM</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="09-学术与实验室" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">ArchGPT / Stable Architecture</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta">  <span class="dev">开源社区</span> <span class="price">免费</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="09-学术与实验室" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name"><a href="https://labs.autodesk.com/" target="_blank" rel="noopener">Autodesk AI Lab</a></span>
+            <span class="rating">★★★★</span>
+        </div>
+        <div class="tool-meta">  <span class="dev">Autodesk</span> <span class="price">免费</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="09-学术与实验室" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name"><a href="https://www.ilab-x.com/" target="_blank" rel="noopener">iLab-X 建筑虚拟仿真实验平台</a></span>
+            <span class="rating">★★★★</span>
+        </div>
+        <div class="tool-meta">  <span class="dev">教育部虚拟仿真实验教学创新联盟</span> <span class="price">免费</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="09-学术与实验室" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name"><a href="https://arch.scut.edu.cn/" target="_blank" rel="noopener">华南理工大学AI+建筑设计实验室</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta">  <span class="dev">华南理工大学建筑学院</span> <span class="price">免费</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="09-学术与实验室" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name"><a href="https://www.tjadri.com/" target="_blank" rel="noopener">同济大学建筑设计研究院 (TJAD) AI 实验室</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta">  <span class="dev">同济大学建筑设计研究院</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="09-学术与实验室" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name"><a href="https://sheji.ai/" target="_blank" rel="noopener">同济大学设计人工智能实验室 (D&AI Lab)</a></span>
+            <span class="rating">★★★★</span>
+        </div>
+        <div class="tool-meta">  <span class="dev">同济大学设计创意学院</span> <span class="price">免费</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="09-学术与实验室" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name"><a href="https://arch.tsinghua.edu.cn/" target="_blank" rel="noopener">清华大学建筑学院数字技术实验室</a></span>
+            <span class="rating">★★★★</span>
+        </div>
+        <div class="tool-meta">  <span class="dev">清华大学建筑学院</span> <span class="price">免费</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="09-学术与实验室" data-scenes="">
+        <div class="tool-header">
+            <span class="tool-name"><a href="https://www.zaha-hadid.com/" target="_blank" rel="noopener">扎哈事务所AI设计团队</a></span>
+            <span class="rating">★★★★</span>
+        </div>
+        <div class="tool-meta">  <span class="dev">扎哈·哈迪德建筑事务所</span> <span class="price">需询价</span></div>
+        <p class="tool-desc"></p>
+    </div>
+
+    <div class="tool-card" data-category="10-其他" data-scenes="API/服务,AI助手">
+        <div class="tool-header">
+            <span class="tool-name"><a href="null" target="_blank" rel="noopener">Advanced Artificial Intelligence API</a></span>
+            <span class="rating">★★★</span>
+        </div>
+        <div class="tool-meta"> <span class="tag">API/服务</span><span class="tag">AI助手</span> <span class="dev">Advanced Artificial Intelligence API</span> <span class="price">免费</span></div>
+        <p class="tool-desc"></p>
+    </div>
+    </div>
+    <div class="no-results" id="noResults">没有匹配的工具</div>
+</div>
+<footer>
+    <p>建筑师 AI 工具目录 · <a href="https://github.com/deng-yang-dream/directory">GitHub</a> · MIT License</p>
+    <p>构建时间: 2026-06-26 01:53</p>
+</footer>
+<script>
+const search = document.getElementById('search');
+const grid = document.getElementById('toolGrid');
+const cards = grid.querySelectorAll('.tool-card');
+const catBtns = document.querySelectorAll('.cat-btn');
+const noResults = document.getElementById('noResults');
+let activeCat = 'all';
+
+function filter() {
+    const q = search.value.toLowerCase();
+    let visible = 0;
+    cards.forEach(c => {
+        const matchCat = activeCat === 'all' || c.dataset.category === activeCat;
+        const text = c.textContent.toLowerCase();
+        const matchSearch = !q || text.includes(q);
+        if (matchCat && matchSearch) { c.classList.remove('hidden'); visible++; }
+        else { c.classList.add('hidden'); }
+    });
+    noResults.style.display = visible === 0 ? 'block' : 'none';
+}
+
+search.addEventListener('input', filter);
+
+catBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+        catBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeCat = btn.dataset.cat;
+        filter();
+    });
+});
+</script>
+</body>
+</html>
