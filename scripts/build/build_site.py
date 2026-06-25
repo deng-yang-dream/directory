@@ -28,7 +28,11 @@ def parse_frontmatter(content):
                 k, v = kv.groups()
                 v = v.strip()
                 if v.startswith('['):
-                    fm[k] = re.findall(r"['\"]([^'\"]+)['\"]", v)
+                    items = re.findall(r"['\"]([^'\"]+)['\"]", v)
+                    if not items:
+                        inner = v[1:-1]
+                        items = [s.strip() for s in inner.split(',') if s.strip()]
+                    fm[k] = items
                 else:
                     fm[k] = v.strip("'\"")
     return fm

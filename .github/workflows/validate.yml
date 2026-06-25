@@ -1,198 +1,27 @@
 name: Validate Tool Documents
 
 on:
-  # 在推送到任何分支时触发
   push:
-    branches: [ main, develop, 'feature/**' ]
-
-  # 在 Pull Request 时触发
+    branches: [main]
   pull_request:
-    branches: [ main ]
-
-  # 允许手动触发
+    branches: [main]
   workflow_dispatch:
-
-  # 定时检查（每天凌晨）
   schedule:
-    - cron: '0 1 * * *'
+    - cron: '17 1 * * *'
 
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install validation dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install pyyaml
+      - name: Run validation
+        run: python scripts/validate_tools.py
 
-      - name: Run basic validation
-        run: |
-          echo "开始验证工具文档..."
-
-          # 1. 检查文件数量
-          echo "=== 文件数量统计 ==="
-          total_files=$(find tools/zh-cn -name "*.md" | wc -l)
-          echo "总工具文件数: $total_files"
-
-          if [ $total_files -lt 200 ]; then
-            echo "警告: 工具文件数量较少 (<200)"
-          fi
-
-          # 2. 检查分类目录
-          echo -e "\n=== 分类目录检查 ==="
-          expected_categories=("01-方案生成与概念" "02-效果图与渲染" "03-绘图与手绘" "04-AI助手与知识" "05-汇报与数据" "06-绿色与性能" "07-建模与BIM" "08-规范审查" "09-学术与实验室" "10-其他")
-
-          for category in "${expected_categories[@]}"; do
-            if [ -d "tools/zh-cn/$category" ]; then
-              count=$(find "tools/zh-cn/$category" -name "*.md" | wc -l)
-              echo "✓ $category: $count 个文件"
-            else
-              echo "✗ $category: 目录不存在"
-            fi
-          done
-
-          # 3. 检查 frontmatter 基本格式
-          echo -e "\n=== Frontmatter 格式检查 ==="
-          python -c "
-import os
-import re
-import sys
-
-def check_frontmatter(filepath):
-    try:
-        with open(filepath, 'r', encoding='utf-8') as f:
-            content = f.read()
-
-        # 检查是否有 frontmatter
-        if not content.startswith('---'):
-            return False, '缺少 frontmatter 开始标记'
-
-        # 检查 frontmatter 结束标记
-        lines = content.split('\n')
-        if '---' not in lines[1:10]:
-            return False, '缺少 frontmatter 结束标记'
-
-        # 检查基本字段
-        required_fields = ['name', 'scenes']
-        for field in required_fields:
-            if f'{field}:' not in content[:500]:
-                return False, f'缺少必要字段: {field}'
-
-        return True, '格式正确'
-    except Exception as e:
-        return False, f'读取错误: {str(e)}'
-
-# 检查前 20 个文件作为样本
-md_files = []
-for root, dirs, files in os.walk('tools/zh-cn'):
-    for file in files:
-        if file.endswith('.md'):
-            md_files.append(os.path.join(root, file))
-            if len(md_files) >= 20:
-                break
-    if len(md_files) >= 20:
-        break
-
-print(f'检查 {len(md_files)} 个文件样本...')
-errors = []
-for file in md_files:
-    valid, message = check_frontmatter(file)
-    if not valid:
-        errors.append(f'{os.path.basename(file)}: {message}')
-
-if errors:
-    print('发现格式错误:')
-    for error in errors:
-        print(f'  - {error}')
-    sys.exit(1)
-else:
-    print('✓ 所有样本文件格式正确')
-"
-
-      - name: Check for broken links (basic)
-        run: |
-          echo "=== 基本链接检查 ==="
-          # 检查 URL 字段格式
-          find tools/zh-cn -name "*.md" -exec grep -l "url: null" {} \; | head -5 | while read file; do
-            echo "警告: $file 的 url 字段为 null"
-          done
-
-          # 检查是否有 URL 字段
-          no_url_count=$(find tools/zh-cn -name "*.md" -exec grep -L "url:" {} \; | wc -l)
-          if [ $no_url_count -gt 0 ]; then
-            echo "警告: $no_url_count 个文件没有 url 字段"
-          fi
-
-      - name: Check for empty scenes
-        run: |
-          echo "=== 场景字段检查 ==="
-          # 检查空的 scenes 字段
-          empty_scenes=$(find tools/zh-cn -name "*.md" -exec grep -l "scenes: \[\]" {} \; | wc -l)
-          if [ $empty_scenes -gt 0 ]; then
-            echo "错误: $empty_scenes 个文件的 scenes 字段为空"
-            find tools/zh-cn -name "*.md" -exec grep -l "scenes: \[\]" {} \;
-            exit 1
-          fi
-
-          # 检查 scenes 字段格式
-          bad_format=$(find tools/zh-cn -name "*.md" -exec grep -l "scenes: " {} \; | xargs grep -l "scenes: " | xargs grep -L "scenes: \[" | wc -l)
-          if [ $bad_format -gt 0 ]; then
-            echo "错误: $bad_format 个文件的 scenes 字段格式不正确"
-            exit 1
-          fi
-
-      - name: Check file naming conventions
-        run: |
-          echo "=== 文件命名检查 ==="
-          # 检查文件名是否包含空格
-          files_with_spaces=$(find tools/zh-cn -name "*.md" | grep " " | wc -l)
-          if [ $files_with_spaces -gt 0 ]; then
-            echo "错误: $files_with_spaces 个文件名包含空格"
-            find tools/zh-cn -name "*.md" | grep " "
-            exit 1
-          fi
-
-          # 检查文件名是否包含大写字母（应该小写）
-          files_with_uppercase=$(find tools/zh-cn -name "*.md" | grep -E "[A-Z]" | wc -l)
-          if [ $files_with_uppercase -gt 0 ]; then
-            echo "警告: $files_with_uppercase 个文件名包含大写字母（建议使用小写）"
-            find tools/zh-cn -name "*.md" | grep -E "[A-Z]" | head -10
-          fi
-
-      - name: Generate validation report
+      - name: Show report
         if: always()
-        run: |
-          echo "=== 验证报告 ==="
-          echo "验证时间: $(date)"
-          echo "仓库: ${{ github.repository }}"
-          echo "分支: ${{ github.ref }}"
-          echo "提交: ${{ github.sha }}"
-
-          # 生成简单统计
-          echo -e "\n工具统计:"
-          find tools/zh-cn -name "*.md" | wc -l | xargs echo "总文件数:"
-
-          echo -e "\n分类统计:"
-          for dir in tools/zh-cn/*/; do
-            count=$(find "$dir" -name "*.md" | wc -l)
-            echo "$(basename "$dir"): $count"
-          done
-
-          echo -e "\n验证状态: ${{ job.status }}"
-
-      - name: Upload validation report
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: validation-report
-          path: |
-            ${{ github.workspace }}/validation.log
-          retention-days: 7
+        run: cat validation_report.json 2>/dev/null || echo "No report generated"
