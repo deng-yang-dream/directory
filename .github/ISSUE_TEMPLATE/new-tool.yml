@@ -1,0 +1,89 @@
+name: 🛠️ 提交新工具
+description: 向工具目录添加一个新的 AI 工具
+title: "[新工具] 工具名称"
+labels: ["new-tool"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: 工具名称
+      placeholder: 例如 Midjourney
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: 官网链接
+      placeholder: https://example.com
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 主分类
+      options:
+        - 01-方案生成与概念
+        - 02-效果图与渲染
+        - 03-绘图与手绘
+        - 04-AI助手与知识
+        - 05-汇报与数据
+        - 06-绿色与性能
+        - 07-建模与BIM
+        - 08-规范审查
+        - 09-学术与实验室
+        - 10-其他
+    validations:
+      required: true
+  - type: textarea
+    id: scenes
+    attributes:
+      label: 适用场景标签
+      description: 每行一个，例如"方案生成 / AI渲染 / BIM协同"
+      placeholder: |
+        方案生成
+        AI渲染
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 一句话描述
+      description: 这个工具是什么，为建筑师解决什么问题
+      placeholder: 一句话概括工具的核心价值
+    validations:
+      required: true
+  - type: dropdown
+    id: pricing
+    attributes:
+      label: 定价模式
+      options:
+        - 免费
+        - Freemium（免费+付费）
+        - 订阅制
+        - 一次性付费
+        - 按量计费
+        - 待确认
+    validations:
+      required: true
+  - type: dropdown
+    id: maturity
+    attributes:
+      label: 产品成熟度
+      options:
+        - 成熟产品
+        - 早期版本
+        - Beta/内测
+        - 待确认
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 已在目录中搜索，确认不重复
+          required: true
+        - label: 工具与建筑设计/工程相关
+          required: true
+        - label: 信息准确可验证
+          required: true

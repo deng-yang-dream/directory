@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 讨论
+    url: https://github.com/deng-yang-dream/directory/discussions
+    about: 有问题或想法？在 Discussions 中发起讨论
+  - name: 📖 浏览工具目录
+    url: https://deng-yang-dream.github.io/directory/
+    about: 在线浏览完整的工具目录

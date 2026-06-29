@@ -1,0 +1,37 @@
+name: 🐛 报告问题
+description: 报告工具信息错误、链接失效或其他问题
+title: "[问题] 简要描述"
+labels: ["bug"]
+body:
+  - type: input
+    id: tool-name
+    attributes:
+      label: 涉及的工具名称
+      placeholder: 如 Midjourney
+    validations:
+      required: true
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: 问题类型
+      options:
+        - 链接失效/错误
+        - 信息过时
+        - 分类错误
+        - 描述不准确
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: 详细说明
+      description: 具体哪里有问题，正确信息应该是什么
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: 信息来源（如有）
+      description: 提供正确信息的来源链接
+      placeholder: https://...
